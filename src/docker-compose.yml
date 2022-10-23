@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  msgidentitydb:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    container_name: msgidentitydb
+    environment:
+      SA_PASSWORD: "Passw0rd!"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - msg_identity_sqlserver_data:/var/opt/mssql
+    restart: always
+    ports:
+      - "1436:1433"
+
+volumes:
+  msg_identity_sqlserver_data:
+    external: false

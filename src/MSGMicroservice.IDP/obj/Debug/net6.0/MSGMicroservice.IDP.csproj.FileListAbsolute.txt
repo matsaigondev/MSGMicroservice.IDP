@@ -1,0 +1,380 @@
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/appsettings.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.staticwebassets.runtime.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.deps.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.runtimeconfig.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/IdentityModel.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.File.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.AssemblyReference.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.AssemblyInfoInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.AssemblyInfo.cs
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.CoreCompileInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.MvcApplicationPartsAssemblyInfo.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.RazorAssemblyInfo.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.RazorAssemblyInfo.cs
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/scopedcss/bundle/MSGMicroservice.IDP.styles.css
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.CopyComplete
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/refint/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.genruntimeconfig.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/obj/Debug/net6.0/ref/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Elasticsearch.Net.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Enrichers.Environment.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Formatting.Elasticsearch.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Elasticsearch.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.PeriodicBatching.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/keys/is-signing-key-BECFDE83B851B43132F5CC0AA9851732.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/AutoMapper.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Humanizer.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/appsettings.json
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/keys/is-signing-key-BECFDE83B851B43132F5CC0AA9851732.json
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.staticwebassets.runtime.json
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.exe
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.deps.json
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.runtimeconfig.json
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.pdb
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/AutoMapper.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Elasticsearch.Net.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Humanizer.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/IdentityModel.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.AspNetCore.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Enrichers.Environment.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Formatting.Elasticsearch.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Elasticsearch.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.File.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.PeriodicBatching.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Drawing.Common.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Runtime.Caching.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Security.Permissions.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Windows.Extensions.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.AssemblyReference.cache
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.GeneratedMSBuildEditorConfig.editorconfig
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.AssemblyInfoInputs.cache
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.AssemblyInfo.cs
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.CoreCompileInputs.cache
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.MvcApplicationPartsAssemblyInfo.cache
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.RazorAssemblyInfo.cache
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.RazorAssemblyInfo.cs
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/staticwebassets.build.json
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/staticwebassets.development.json
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/scopedcss/bundle/MSGMicroservice.IDP.styles.css
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.CopyComplete
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/refint/MSGMicroservice.IDP.dll
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.pdb
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.genruntimeconfig.cache
+D:/OneDrive - Công ty Cổ phần Bệnh viện Mắt Sài Gòn/Documents/IT/MSG PROJECTS/Backends/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/ref/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/appsettings.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/keys/is-signing-key-BECFDE83B851B43132F5CC0AA9851732.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.staticwebassets.runtime.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.deps.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.runtimeconfig.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/AutoMapper.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.AspNetIdentity.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.EntityFramework.Storage.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Duende.IdentityServer.Storage.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Elasticsearch.Net.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Humanizer.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/IdentityModel.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Data.SqlClient.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Design.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.Relational.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.EntityFrameworkCore.SqlServer.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Caching.Memory.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Identity.Core.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Extensions.Identity.Stores.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Identity.Client.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.Win32.SystemEvents.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.AspNetCore.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Enrichers.Environment.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Extensions.Hosting.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Extensions.Logging.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Formatting.Compact.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Formatting.Elasticsearch.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Settings.Configuration.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Console.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Debug.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.Elasticsearch.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.File.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Serilog.Sinks.PeriodicBatching.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Configuration.ConfigurationManager.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Drawing.Common.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Runtime.Caching.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Security.Cryptography.ProtectedData.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/System.Windows.Extensions.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.1/Microsoft.Data.SqlClient.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-arm/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-arm64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-x64/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win-x86/native/Microsoft.Data.SqlClient.SNI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/Microsoft.Win32.SystemEvents.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/unix/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Drawing.Common.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Runtime.Caching.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/runtimes/win/lib/netcoreapp3.0/System.Windows.Extensions.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.AssemblyReference.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.AssemblyInfoInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.AssemblyInfo.cs
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.CoreCompileInputs.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.MvcApplicationPartsAssemblyInfo.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.RazorAssemblyInfo.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.RazorAssemblyInfo.cs
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/staticwebassets.build.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/staticwebassets.development.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/scopedcss/bundle/MSGMicroservice.IDP.styles.css
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.csproj.CopyComplete
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/refint/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.genruntimeconfig.cache
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/ref/MSGMicroservice.IDP.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.Presentation.deps.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.Presentation.runtimeconfig.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/appsettings.Development.json
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.Presentation
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Microsoft.OpenApi.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Swashbuckle.AspNetCore.Annotations.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Swashbuckle.AspNetCore.Swagger.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.Presentation.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.Presentation.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/obj/Debug/net6.0/MSGMicroservice.IDP.MvcApplicationPartsAssemblyInfo.cs
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/Dapper.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.Infrastructure.dll
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/MSGMicroservice.IDP.Infrastructure.pdb
+/Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\appsettings.Development.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.Presentation.deps.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.Presentation.runtimeconfig.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.Presentation.exe
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\appsettings.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\keys\is-signing-key-BECFDE83B851B43132F5CC0AA9851732.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.staticwebassets.runtime.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.exe
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.deps.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.runtimeconfig.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.pdb
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\AutoMapper.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Dapper.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Duende.IdentityServer.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Duende.IdentityServer.AspNetIdentity.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Duende.IdentityServer.EntityFramework.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Duende.IdentityServer.EntityFramework.Storage.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Duende.IdentityServer.Storage.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Humanizer.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\IdentityModel.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.AspNetCore.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Enrichers.Environment.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Extensions.Hosting.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Extensions.Logging.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Formatting.Compact.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Formatting.Elasticsearch.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Settings.Configuration.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Sinks.Console.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Sinks.Debug.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Sinks.Elasticsearch.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Sinks.File.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Serilog.Sinks.PeriodicBatching.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Swashbuckle.AspNetCore.Annotations.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.Presentation.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\MSGMicroservice.IDP.Presentation.pdb
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.csproj.AssemblyReference.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.GeneratedMSBuildEditorConfig.editorconfig
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.AssemblyInfoInputs.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.AssemblyInfo.cs
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.csproj.CoreCompileInputs.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.MvcApplicationPartsAssemblyInfo.cs
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.MvcApplicationPartsAssemblyInfo.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.RazorAssemblyInfo.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.RazorAssemblyInfo.cs
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\staticwebassets.build.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\staticwebassets.development.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\scopedcss\bundle\MSGMicroservice.IDP.styles.css
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.csproj.CopyComplete
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\refint\MSGMicroservice.IDP.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.pdb
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.genruntimeconfig.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\ref\MSGMicroservice.IDP.dll

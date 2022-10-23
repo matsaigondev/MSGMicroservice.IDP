@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'SelfHost' " />
+  <ItemGroup>
+    <PackageReference Include="Duende.IdentityServer" Version="6.1.5" />
+    <PackageReference Include="Duende.IdentityServer.AspNetIdentity" Version="6.1.5" />
+    <PackageReference Include="Duende.IdentityServer.EntityFramework" Version="6.1.5" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.9" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.9">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+
+    <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
+
+    <PackageReference Include="Serilog.Enrichers.Environment" Version="2.2.0" />
+
+    <PackageReference Include="Serilog.Sinks.Elasticsearch" Version="8.4.1" />
+
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.4.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MSGMicroservice.IDP.Infrastructure\MSGMicroservice.IDP.Infrastructure.csproj" />
+    <ProjectReference Include="..\MSGMicroservice.IDP.Presentation\MSGMicroservice.IDP.Presentation.csproj" />
+  </ItemGroup>
+</Project>
