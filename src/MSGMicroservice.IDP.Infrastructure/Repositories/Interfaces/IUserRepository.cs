@@ -10,5 +10,6 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
         // UserManager<User> UserManager { get; }
         // RoleManager<IdentityRole> RoleManager { get; }
         Task<UserDTO> Register(RegisterRequestDTO registerRequestDto);
+        Task<LoginResponseDTO> Login(LoginRequestDTO loginRequestDTO);
     }
 }

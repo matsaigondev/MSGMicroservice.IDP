@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Identity;
 
-namespace MSGMicroservice.IDP.Infrastructure.Entities;
-
-public class User : IdentityUser
+namespace MSGMicroservice.IDP.Infrastructure.Entities
 {
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public string Address { get; set; }
+    public class User : IdentityUser
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Address { get; set; }
+    }
 }

@@ -378,3 +378,4 @@ C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\ne
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.pdb
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\MSGMicroservice.IDP.genruntimeconfig.cache
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\obj\Debug\net6.0\ref\MSGMicroservice.IDP.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

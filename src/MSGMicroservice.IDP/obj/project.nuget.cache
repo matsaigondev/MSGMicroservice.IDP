@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ykffjz6A2VA7EdFV8+GQUEMHBXPMs/rgXTFPSQ/V/Cb3h9IwNlwX26N2wzQyVHTpC/uL7cNqG5r+stSnp6aJvQ==",
+  "dgSpecHash": "gHEtSZpFKC6iKwP521P1XjP/+LfzWCgn6HQgLdUZrWqF5QasDCDrlNeSDmFwa+D/0ECp+3ypR/4hyyNiUAI4uw==",
   "success": true,
   "projectFilePath": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\MSGMicroservice.IDP.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\QUOCHUY\\.nuget\\packages\\identitymodel\\6.0.0\\identitymodel.6.0.0.nupkg.sha512",
     "C:\\Users\\QUOCHUY\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\QUOCHUY\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
+    "C:\\Users\\QUOCHUY\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\6.0.10\\microsoft.aspnetcore.authentication.jwtbearer.6.0.10.nupkg.sha512",
     "C:\\Users\\QUOCHUY\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\6.0.0\\microsoft.aspnetcore.authentication.openidconnect.6.0.0.nupkg.sha512",
     "C:\\Users\\QUOCHUY\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\QUOCHUY\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",
