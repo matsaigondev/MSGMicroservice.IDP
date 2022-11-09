@@ -31,20 +31,48 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
             return result != null ? Ok(result) : BadRequest();
         }
         
-        [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] LoginRequestDTO model)
+        //[HttpPost("login")]
+        //public async Task<IActionResult> Login([FromBody] LoginRequestDTO model)
+        //{
+        //    var loginResponse = await _userRepository.Login(model);
+        //    if (loginResponse.User == null || string.IsNullOrEmpty(loginResponse.access_token))
+        //    {
+        //        _response.StatusCode = HttpStatusCode.BadRequest;
+        //        _response.IsSuccess = false;
+        //        _response.ErrorMessages.Add("Username or password is incorrect");
+        //        return BadRequest(_response);
+        //    }
+        //    _response.StatusCode = HttpStatusCode.OK;
+        //    _response.IsSuccess = true;
+        //    _response.Result = loginResponse;
+        //    return Ok(_response);
+        //}
+
+        [HttpPost("resetpassword")]
+        public async Task<ActionResult> ResetUserPassword([FromBody] RegisterRequestDTO model)
         {
-            var loginResponse = await _userRepository.Login(model);
-            if (loginResponse.User == null || string.IsNullOrEmpty(loginResponse.access_token))
+            var result = await _userRepository.ResetPassword(model);
+            if (!result)
             {
-                _response.StatusCode = HttpStatusCode.BadRequest;
-                _response.IsSuccess = false;
-                _response.ErrorMessages.Add("Username or password is incorrect");
-                return BadRequest(_response);
+                return NotFound();
             }
             _response.StatusCode = HttpStatusCode.OK;
             _response.IsSuccess = true;
-            _response.Result = loginResponse;
+            _response.Result = "Reset password successful";
+            return Ok(_response);
+        }
+
+        [HttpPost("changepassword")]
+        public async Task<ActionResult> ChangePassword([FromBody] ChangePwdDto model)
+        {
+            var result = await _userRepository.ChangePassword(model);
+            if (!result)
+            {
+                return NotFound();
+            }
+            _response.StatusCode = HttpStatusCode.OK;
+            _response.IsSuccess = true;
+            _response.Result = "Changed password successful";
             return Ok(_response);
         }
     }

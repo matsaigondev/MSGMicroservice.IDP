@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using AutoMapper;
 using Dapper;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using MSGMicroservice.IDP.Infrastructure.Domains;
@@ -149,6 +150,70 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                 
             };
             return loginResponseDTO;
+        }
+
+        public async Task<bool> ResetPassword(RegisterRequestDTO model)
+        {
+            var _findUser = await _userManager.Users.Where(x => x.UserName == model.UserName).FirstOrDefaultAsync();//.FindByNameAsync(model.UserName);
+            if (_findUser == null)
+                return false;
+            
+            await _userManager.RemovePasswordAsync(_findUser);
+            await _userManager.AddPasswordAsync(_findUser, model.Password);
+
+            return true;
+        }
+
+        public async Task<bool> ChangePassword(ChangePwdDto model)
+        {
+            var user = await _userManager.FindByNameAsync(model.UserName);
+            var result = await _userManager.ChangePasswordAsync(user, model.OldPassword, model.NewPassword);
+            if (!result.Succeeded)
+            {
+                return false;
+            }
+            return true;
+        }
+
+        public async Task<UserDTO> RegisterUser(RegisterRequestDTO registerRequestDto)
+        {
+            //1. check username exist?
+            if (!IsUniqueUser(registerRequestDto.UserName))
+                return null;
+
+            User user = new()
+            {
+                UserName = registerRequestDto.UserName,
+                Email = registerRequestDto.Email,
+                FirstName = registerRequestDto.FirstName,
+                LastName = registerRequestDto.LastName,
+                Address = registerRequestDto.Address,
+                EmailConfirmed = true,
+                Id = Guid.NewGuid().ToString()
+            };
+
+            try
+            {
+                var resultUser = await _userManager.CreateAsync(user, registerRequestDto.Password);
+                if (resultUser.Succeeded)
+                {
+                    if (!_roleManager.RoleExistsAsync("Administration").GetAwaiter().GetResult())
+                    {
+                        await _roleManager.CreateAsync(new IdentityRole("administration"));
+                        await _roleManager.CreateAsync(new IdentityRole("customer"));
+                    }
+                    await _userManager.AddToRoleAsync(user, "customer");
+                    var userToReturn = _userManager.Users
+                        .FirstOrDefault(u => u.UserName == registerRequestDto.UserName);
+                    return _mapper.Map<UserDTO>(userToReturn);
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+
+            return new UserDTO();
         }
     }
 }

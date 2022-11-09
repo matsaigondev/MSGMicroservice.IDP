@@ -1,3 +1,4 @@
+using Duende.IdentityServer.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing;
@@ -25,6 +26,13 @@ namespace MSGMicroservice.IDP.Extensions
             builder.Services.AddScoped<IEmailSender, SmtpMailService>();
             builder.Services.ConfigureCookiePolicy(); //khi nao ko login cung 1 trang
             builder.Services.ConfigureCors();
+            //builder.Services.AddSingleton<ICorsPolicyService>((container) => {
+            //    var logger = container.GetRequiredService<ILogger<DefaultCorsPolicyService>>();
+            //    return new DefaultCorsPolicyService(logger)
+            //    {
+            //        AllowedOrigins = { "http://localhost:3002" }
+            //    };
+            //});
             builder.Services.ConfigureIdentity(builder.Configuration);
             builder.Services.ConfigureIdentityServer(builder.Configuration);
             builder.Services.AddSingleton<DapperContext>();

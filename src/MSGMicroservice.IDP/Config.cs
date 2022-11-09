@@ -34,6 +34,7 @@ namespace MSGMicroservice.IDP
                     Scopes = new List<string> {"msg_microservice_api.read", "msg_microservice_api.write"},
                     UserClaims = new List<string> {"roles"}
                 },
+                //new ApiResource("msgApi", "MSG Microservices Web Client"),
                 // new ApiResource("msg_microservice_api", "MSG Microservice API")
                 // {
                 //     Scopes = new List<string> { "msg_microservice_api.read" }
@@ -124,7 +125,8 @@ namespace MSGMicroservice.IDP
                         "msg_microservice_api.read",
                         "msg_microservice_api.write",
                     }
-                }
+                },
+                
             };
     }
 }

@@ -43,6 +43,7 @@ public static class ServiceExtensions
         {
             options.AddPolicy("CorsPolicy",builder=>builder
                 .AllowAnyOrigin()
+                .WithOrigins("http://localhost:4200")
                 .AllowAnyMethod()
                 .AllowAnyHeader());//will be adjusted after production
         });
