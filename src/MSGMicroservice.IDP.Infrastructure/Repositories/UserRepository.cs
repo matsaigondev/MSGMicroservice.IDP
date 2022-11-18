@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
@@ -10,6 +11,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using MSGMicroservice.IDP.Infrastructure.Common;
 using MSGMicroservice.IDP.Infrastructure.Domains;
 using MSGMicroservice.IDP.Infrastructure.Entities;
 using MSGMicroservice.IDP.Infrastructure.ViewModels;
@@ -99,10 +101,163 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             }
         }
         
+        public async Task<UserDTO?> RegisterV2(RegisterRequestDTO registerRequestDto)
+        {
+            //1. check username exist?
+            if (!IsUniqueUser(registerRequestDto.UserName))
+                return null;
+            //2.Get information from Patients
+            try
+            {
+                if (string.IsNullOrEmpty(registerRequestDto.PhoneNumber) &&
+                    string.IsNullOrEmpty(registerRequestDto.Email))
+                    return null;
+                var _strUserName = string.IsNullOrEmpty(registerRequestDto.PhoneNumber)
+                    ? registerRequestDto.Email
+                    : registerRequestDto.PhoneNumber;
+                var _strEmail = string.IsNullOrEmpty(registerRequestDto.Email)
+                    ? DateTime.Now.ToString("yyyyMMddHHmmsss") + "@noemail.com"
+                    : registerRequestDto.Email;
+
+                User user = new()
+                {
+                    UserName = _strUserName,
+                    Email = _strEmail,
+                    FirstName = registerRequestDto.FirstName.ToUpper(),
+                    LastName = registerRequestDto.LastName.ToUpper(),
+                    Address = registerRequestDto.Address,
+                    EmailConfirmed = true,
+                    PhoneNumber = registerRequestDto.PhoneNumber,
+                    Id = Guid.NewGuid().ToString()
+                };
+
+                try
+                {
+                    registerRequestDto.Password = "P@ssw0rd";
+                    var resultUser = await _userManager.CreateAsync(user, registerRequestDto.Password);
+                    if (resultUser.Succeeded)
+                    {
+                        if (!_roleManager.RoleExistsAsync("Administration").GetAwaiter().GetResult())
+                        {
+                            await _roleManager.CreateAsync(new IdentityRole("administration"));
+                            await _roleManager.CreateAsync(new IdentityRole("customer"));
+                        }
+
+                        if (string.IsNullOrEmpty(registerRequestDto.Role))
+                            await _userManager.AddToRoleAsync(user, "customer");
+                        else
+                        {
+                            var roleName = await _roleManager.Roles.Where(x=>x.Id.Equals(registerRequestDto.Role)).FirstOrDefaultAsync();
+                            await _userManager.AddToRoleAsync(user, roleName.Name);
+                        }
+
+                        var userToReturn = _userManager.Users
+                            .FirstOrDefault(u => u.UserName == _strUserName);
+                        return _mapper.Map<UserDTO>(userToReturn);
+                    }
+                }
+                catch (Exception e)
+                {
+                }
+
+                return new UserDTO();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return new UserDTO();
+            }
+        }
+
+        public async Task<bool> Update(RegisterRequestDTO registerRequestDto)
+        {
+            try
+            {
+                var user = await _userManager.Users.Where(x => x.UserName.Equals(registerRequestDto.UserName))
+                    .FirstOrDefaultAsync();
+                user.FirstName = registerRequestDto.FirstName.ToUpper();
+                user.LastName = registerRequestDto.LastName.ToUpper();
+                user.Address = registerRequestDto.Address;
+                user.Email = registerRequestDto.Email;
+                user.PhoneNumber = registerRequestDto.PhoneNumber;
+                // if (!IsUniqueUser(registerRequestDto.PhoneNumber) || !IsUniqueEmail(registerRequestDto.Email))
+                //     return false;
+                var result = await _userManager.UpdateAsync(user);
+                //if role <> current
+                var _userRole = _userManager.IsInRoleAsync(user, registerRequestDto.Role).Result;
+                if (!_userRole)
+                {
+                    //changed another role need to update
+                    //1.remove first
+                    
+                    var getRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.OldRole))
+                        .FirstOrDefaultAsync();
+                    await _userManager.RemoveFromRoleAsync(user, getRoleOld.Name);
+                    
+                    //2.add new role
+                    var getRole = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.Role))
+                        .FirstOrDefaultAsync();
+                    await _userManager.AddToRoleAsync(user, getRole.Name);
+                }
+                if (result.Succeeded)
+                    return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return false;
+            }
+
+            return false;
+        }
+
+        public async Task<bool> Delete(string id)
+        {
+            try
+            {
+                var user = await _userManager.Users.Where(x => x.Id.Equals(id)).FirstOrDefaultAsync();
+                //delete role user:
+                var roles = await _roleManager.Roles.ToListAsync();
+                foreach (var item in roles)
+                {
+                    await _userManager.RemoveFromRoleAsync(user, item.Name);
+                }
+                //delete user:
+                await _userManager.DeleteAsync(user);
+
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return false;
+            }
+        }
+
         private bool IsUniqueUser(string username)
         {
             var user = _userManager.Users.FirstOrDefault(x => x.UserName == username);
             if (user == null)
+            {
+                return true;
+            }
+            return false;
+        }
+        
+        private bool IsUniqueEmail(string email)
+        {
+            var user = _userManager.Users.FirstOrDefault(x => x.Email == email);
+            if (user == null)
+            {
+                return true;
+            }
+            return false;
+        }
+        
+        private bool IsUniqueRole(string roleName)
+        {
+            var role = _roleManager.Roles.FirstOrDefault(x => x.Name == roleName);
+            if (role == null)
             {
                 return true;
             }
@@ -175,6 +330,59 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             return true;
         }
 
+        public async Task<List<UserDTO>> GetUsers()
+        {
+            var user = await _userManager.Users.ToListAsync();
+            return _mapper.Map<List<UserDTO>>(user);
+        }
+
+        public async Task<UserDTO> GetUserById(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+            var result = _mapper.Map<UserDTO>(user);
+            var roles = _userManager.GetRolesAsync(user).Result;
+            result.Roles = roles;
+            result.Role = roles[0];
+            result.OldRole = roles[0];
+            return result;
+        }
+
+        public async Task<PagedResult<UserDTO>> GetUsersPaging(GetCommonPaging request)
+        {
+            var user = await _userManager.Users
+                .ToListAsync();
+
+            var result = _mapper.Map<List<UserDTO>>(user);
+            
+            if (!string.IsNullOrEmpty(request.Keyword))
+            {
+                result = result.Where(x => x.UserName.ToLower().Contains(request.Keyword.ToLower())
+                                           ||x.FirstName.ToLower().Contains(request.Keyword.ToLower())||x.LastName.ToLower().Contains(request.Keyword.ToLower())).ToList();
+            }
+
+            int totalRow = result.Count();
+
+            result = result.OrderByDescending(x => x.UserName)
+                .Skip((request.PageIndex - 1) * request.PageSize)
+                .Take(request.PageSize).ToList();
+            
+            var pagedResult = new PagedResult<UserDTO>()
+            {
+                TotalRecords = totalRow,
+                PageIndex = request.PageIndex,
+                PageSize = request.PageSize,
+                Data = result
+            };
+
+            return pagedResult;
+        }
+
+        public async Task<List<RoleDTO>> GetRoles()
+        {
+            var roles = await _roleManager.Roles.ToListAsync();
+            return _mapper.Map<List<RoleDTO>>(roles);
+        }
+
         public async Task<UserDTO> RegisterUser(RegisterRequestDTO registerRequestDto)
         {
             //1. check username exist?
@@ -214,6 +422,73 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             }
 
             return new UserDTO();
+        }
+
+        public async Task<RoleDTO> CreateRole(RoleDTO request)
+        {
+            //1. check rolename exist?
+            if (!IsUniqueRole(request.Name))
+                return null;
+            
+            try
+            {
+                var resultRole = await _roleManager.CreateAsync(new IdentityRole(request.Name));
+                if (resultRole.Succeeded)
+                {
+                    var roleToReturn = _roleManager.Roles
+                        .FirstOrDefault(u => u.Name == request.Name);
+                    return _mapper.Map<RoleDTO>(roleToReturn);
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return null;
+            }
+
+            return new RoleDTO();
+        }
+
+        public async Task<bool> UpdateRole(RoleDTO request)
+        {
+            try
+            {
+                var getRole = await _roleManager.Roles.Where(x => x.Id.Equals(request.Id)).FirstOrDefaultAsync();
+                getRole.Name = request.Name;
+                var resultRole = await _roleManager.UpdateAsync(getRole);
+                
+                if (resultRole.Succeeded)
+                {
+                    return true;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return false;
+            }
+
+            return false;
+        }
+
+        public async Task<bool> DeleteRole(string id)
+        {
+            try
+            {
+                var role = await _roleManager.FindByIdAsync(id);
+                var user = _userManager.GetUsersInRoleAsync(role.Name).Result;
+                if (user.Count() == 0)
+                    await _roleManager.DeleteAsync(role);
+                else 
+                    return false;
+                
+                return true;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+                return false;
+            }
         }
     }
 }

@@ -149,3 +149,8 @@ C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\obj\Debug\net6.0\MSGMicroservice.IDP.Presentation.genruntimeconfig.cache
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\obj\Debug\net6.0\ref\MSGMicroservice.IDP.Presentation.dll
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.MSGMicroservice.IDP.Presentation.Microsoft.AspNetCore.StaticWebAssets.props
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.build.MSGMicroservice.IDP.Presentation.props
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.MSGMicroservice.IDP.Presentation.props
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.MSGMicroservice.IDP.Presentation.props
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\obj\Debug\net6.0\staticwebassets.pack.json

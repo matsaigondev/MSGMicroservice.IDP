@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WTAPXaWbwiYwVzN+ZRkzHZp5amzqN4fefQg6dbCFcX9SSMz1/gWLDa4wxXq8m56JWkBWMF+TdiqINzWFXOz5xw==",
+  "dgSpecHash": "wOcRL0uwy5rD4uUUN43/G7b14GdiI5SNnv2/X2LrDtoKfgmo5pGrnUordhnBvvYpBoUiEzJe6YfSIaHFjAidrA==",
   "success": true,
   "projectFilePath": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj",
   "expectedPackageFiles": [
