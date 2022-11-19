@@ -125,7 +125,7 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                     Email = _strEmail,
                     FirstName = registerRequestDto.FirstName.ToUpper(),
                     LastName = registerRequestDto.LastName.ToUpper(),
-                    Address = registerRequestDto.Address,
+                    Address = string.IsNullOrEmpty(registerRequestDto.Address)?"":registerRequestDto.Address,
                     EmailConfirmed = true,
                     PhoneNumber = registerRequestDto.PhoneNumber,
                     Id = Guid.NewGuid().ToString()
@@ -192,7 +192,8 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                     
                     var getRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.OldRole))
                         .FirstOrDefaultAsync();
-                    await _userManager.RemoveFromRoleAsync(user, getRoleOld.Name);
+                    if (getRoleOld != null)
+                        await _userManager.RemoveFromRoleAsync(user, getRoleOld.Name);
                     
                     //2.add new role
                     var getRole = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.Role))
@@ -341,9 +342,13 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             var user = await _userManager.FindByIdAsync(id);
             var result = _mapper.Map<UserDTO>(user);
             var roles = _userManager.GetRolesAsync(user).Result;
-            result.Roles = roles;
-            result.Role = roles[0];
-            result.OldRole = roles[0];
+            if (roles.Count > 0)
+            {
+                result.Roles = roles;
+                result.Role = roles[0];
+                result.OldRole = roles[0];
+            }
+
             return result;
         }
 

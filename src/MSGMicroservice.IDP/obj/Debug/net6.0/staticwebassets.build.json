@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LeXkRQ/6TFTHdj854lBacwSQjCFRWWTMPUTHosOz94A=",
+  "Hash": "QNQTAWZukikQJ68OC0jIEfw2QjhEW5tV0edOmSFGWQk=",
   "Source": "MSGMicroservice.IDP",
   "BasePath": "_content/MSGMicroservice.IDP",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "MSGMicroservice.IDP.Presentation",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],

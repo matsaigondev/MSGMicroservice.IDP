@@ -14,5 +14,6 @@ namespace MSGMicroservice.IDP.Infrastructure.ViewModels
         public IList<string>? Roles { get; set; }
         public string? Role { get; set; }
         public string? OldRole { get; set; }
+        public int? HospitalId { get; set; }
     }
 }

@@ -23,6 +23,18 @@ namespace MSGMicroservice.IDP.Persistence
             builder.ApplyConfigurationsFromAssembly(typeof(MsgIdentityContext).Assembly); //cach 2 hay hon
             // base.OnModelCreating(builder);
             builder.ApplyIdentityConfiguration();
+            builder
+                .Entity<User>()
+                .Property(x => x.FirstName)
+                .HasMaxLength(250)
+                .IsRequired()
+                .IsUnicode(false);
+            builder
+                .Entity<User>()
+                .Property(x => x.LastName)
+                .HasMaxLength(100)
+                .IsRequired()
+                .IsUnicode(false);
         }
     }
 }

@@ -12,6 +12,9 @@ dotnet ef migrations add "Create_Permissions" -c MsgIdentityContext
 dotnet ef database update -c MsgIdentityContext
 
 ========WINDOWS==================
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP>dotnet ef migrations add UpdateTblUser --context MsgIdentityContext -o Persistence/Migrations
  dotnet ef database update --context PersistedGrantDbContext
  dotnet ef database update --context ConfigurationDbContext
  dotnet ef database update --context MsgIdentityContext
+
+Tại Windows nhớ vẫn đường dẫn này

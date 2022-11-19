@@ -4,6 +4,7 @@ using MSGMicroservice.IDP.Persistence;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace MSGMicroservice.IDP.Persistence.Migrations
 {
     [DbContext(typeof(MsgIdentityContext))]
-    partial class MsgIdentityContextModelSnapshot : ModelSnapshot
+    [Migration("20221119013843_UpdateTblUser")]
+    partial class UpdateTblUser
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -46,15 +48,15 @@ namespace MSGMicroservice.IDP.Persistence.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "82a969a6-acd0-4bee-a3c5-46d4393f5516",
-                            ConcurrencyStamp = "770c5166-f9ab-4320-994a-a69e13d473ad",
+                            Id = "0c3e649d-125b-44ee-a024-5736a529fa86",
+                            ConcurrencyStamp = "5d684db6-6bef-40b3-8147-643ddc465e4b",
                             Name = "Administration",
                             NormalizedName = "ADMINISTRATION"
                         },
                         new
                         {
-                            Id = "996d16aa-b73b-4a5f-98e0-a855d09d5c5e",
-                            ConcurrencyStamp = "5d69fca7-f211-41b5-8a2b-b8a78a5335c4",
+                            Id = "5af0778a-4bdd-4213-8149-490b5149b81b",
+                            ConcurrencyStamp = "92d58b54-6420-451f-9546-bfb5fbc2b36f",
                             Name = "Customer",
                             NormalizedName = "CUSTOMER"
                         });
@@ -208,18 +210,16 @@ namespace MSGMicroservice.IDP.Persistence.Migrations
 
                     b.Property<string>("FirstName")
                         .IsRequired()
-                        .HasMaxLength(250)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(250)");
+                        .HasMaxLength(50)
+                        .HasColumnType("varchar(50)");
 
                     b.Property<int?>("HospitalId")
                         .HasColumnType("int");
 
                     b.Property<string>("LastName")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .IsUnicode(false)
-                        .HasColumnType("varchar(100)");
+                        .HasMaxLength(150)
+                        .HasColumnType("varchar(150)");
 
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");

@@ -122,7 +122,7 @@ public static class ServiceExtensions
         var connectionString = configuration.GetConnectionString("IdentitySqlConnection");
         services
             .AddDbContext<MsgIdentityContext>(options => options
-                .UseSqlServer(connectionString))
+                .UseSqlServer(connectionString,b => b.MigrationsAssembly("MSGMicroservice.IDP")))
             .AddIdentity<User, IdentityRole>(opt =>
             {
                 opt.Password.RequireDigit = false;
