@@ -73,8 +73,6 @@
 /Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP.Presentation/bin/Debug/net6.0/Microsoft.Extensions.DependencyModel.dll
 /Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP.Presentation/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/jasonngo/Desktop/JPROJECTS/2022/MICROSERVICE/MSGMicroservice.IDP/src/MSGMicroservice.IDP.Presentation/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll
-C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\bin\Debug\net6.0\appsettings.Development.json
-C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\bin\Debug\net6.0\appsettings.json
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\bin\Debug\net6.0\MSGMicroservice.IDP.Presentation.exe
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\bin\Debug\net6.0\MSGMicroservice.IDP.Presentation.deps.json
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Presentation\bin\Debug\net6.0\MSGMicroservice.IDP.Presentation.runtimeconfig.json

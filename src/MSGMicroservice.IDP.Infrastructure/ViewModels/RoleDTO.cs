@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace MSGMicroservice.IDP.Infrastructure.ViewModels
 {
@@ -8,5 +9,6 @@ namespace MSGMicroservice.IDP.Infrastructure.ViewModels
         public string Name { get; set; }
         public string NormalizedName { get; set; }
         public string ConcurrencyStamp { get; set; }
+        public List<string> Functions { get; set; }
     }
 }

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xzGwciW/hV8PJ/gMTrET7/vHYWUy+B0lrhVQns7ALCw=",
+  "Source": "MSGMicroservice.IDP.Presentation",
+  "BasePath": "_content/MSGMicroservice.IDP.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

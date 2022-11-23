@@ -15,11 +15,13 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
+        private readonly IPermissionRepository _permissionRepository;
         protected APIResponse _response;
         
-        public UserController(IUserRepository userRepository)
+        public UserController(IUserRepository userRepository, IPermissionRepository permissionRepository)
         {
             _userRepository = userRepository;
+            _permissionRepository = permissionRepository;
             _response = new();
         }
 
@@ -149,6 +151,11 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
         public async Task<ActionResult> GetRoles()
         {
             var result = await _userRepository.GetRoles();
+            foreach (var item in result)
+            {
+                var getPermissions = await _permissionRepository.GetPermissionsByRoleId0(item.Id);
+                item.Functions = getPermissions;
+            }
             _response.StatusCode = HttpStatusCode.OK;
             _response.IsSuccess = true;
             _response.Result = result;

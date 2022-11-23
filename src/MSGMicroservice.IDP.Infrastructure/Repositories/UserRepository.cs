@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.IdentityModel.Tokens.Jwt;
 using System.Linq;
 using System.Security.Claims;
@@ -385,7 +386,8 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
         public async Task<List<RoleDTO>> GetRoles()
         {
             var roles = await _roleManager.Roles.ToListAsync();
-            return _mapper.Map<List<RoleDTO>>(roles);
+            var result = _mapper.Map<List<RoleDTO>>(roles);
+            return result;
         }
 
         public async Task<UserDTO> RegisterUser(RegisterRequestDTO registerRequestDto)

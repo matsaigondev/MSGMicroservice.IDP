@@ -30,6 +30,31 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             var result = await QueryAsync<PermissionViewModel>("Get_Permission_ByRoleId", parameters);
             return result;
         }
+        
+        public async Task<IReadOnlyList<PermissionRoleVm>> GetPermissionRolesByRole(string roleId)
+        {
+            List<PermissionRoleVm> addList = new List<PermissionRoleVm>();
+            var getlistRole = await GetPermissionsByRoleId(roleId);
+            foreach (var i in getlistRole)
+            {
+                PermissionRoleVm addNew = new PermissionRoleVm();
+                addNew.Function = i.Function;
+                var parameters = new DynamicParameters();
+                parameters.Add("@roleId", roleId);
+                parameters.Add("@funcId", i.Function);
+                var getPermissions = await QueryAsync<Permission>("Get_PermissionRoles_ByRoleId", parameters);
+                addNew.View = getPermissions.Where(x => x.Command.Contains("VIEW")).Count()>0 ? true : false;
+                addNew.Create = getPermissions.Where(x => x.Command.Contains("CREATE")).Count()>0 ? true : false;
+                addNew.Update = getPermissions.Where(x => x.Command.Contains("UPDATE")).Count()>0 ? true : false;
+                addNew.Delete = getPermissions.Where(x => x.Command.Contains("DELETE")).Count()>0 ? true : false;
+                addNew.Import = getPermissions.Where(x => x.Command.Contains("IMPORT")).Count()>0 ? true : false;
+                addNew.Export = getPermissions.Where(x => x.Command.Contains("EXPORT")).Count()>0 ? true : false;
+                addNew.Show = getPermissions.Where(x => x.Command.Contains("SHOW")).Count()>0 ? true : false;
+                addNew.Print = getPermissions.Where(x => x.Command.Contains("PRINT")).Count()>0 ? true : false;
+                addList.Add(addNew);
+            }
+            return addList;
+        }
 
         public async Task<PermissionViewModel?> CreatePermission(string roleId, PermissioAddModel model)
         {
@@ -88,6 +113,55 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
 
             var result = _mapper.Map<IEnumerable<PermissionUserViewModel>>(query);
             return result;
+        }
+
+        public async Task<IReadOnlyList<PermissionDTO>> GetPermissions()
+        {
+            var parameters = new DynamicParameters();
+            var query = await QueryAsync<Permission>("Get_Permission_Grouped", parameters);
+            //var result = _mapper.Map<List<PermissionDTO>>(query);
+            List<PermissionDTO> addList = new List<PermissionDTO>();
+            foreach (var item in query)
+            {
+                PermissionDTO addNew = new PermissionDTO()
+                {
+                    Function = item.Function
+                };
+                addList.Add(addNew);
+            }
+            return addList;
+        }
+
+        public async Task<IReadOnlyList<PermissionDTO>> GetPermissionsByRoleId(string roleId)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@roleId", roleId, DbType.String);
+            var query = await QueryAsync<Permission>("Get_PermissionGrouped_ByRoleId", parameters);
+            //var result = _mapper.Map<List<PermissionDTO>>(query);
+            List<PermissionDTO> addList = new List<PermissionDTO>();
+            foreach (var item in query)
+            {
+                PermissionDTO addNew = new PermissionDTO()
+                {
+                    Function = item.Function
+                };
+                addList.Add(addNew);
+            }
+            return addList;
+        }
+
+        public async Task<List<string>> GetPermissionsByRoleId0(string roleId)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@roleId", roleId, DbType.String);
+            var query = await QueryAsync<Permission>("Get_PermissionGrouped_ByRoleId", parameters);
+            //var result = _mapper.Map<List<PermissionDTO>>(query);
+            List<string> addList = new List<string>();
+            foreach (var item in query)
+            {
+                addList.Add(item.Function);
+            }
+            return addList;
         }
     }
 }

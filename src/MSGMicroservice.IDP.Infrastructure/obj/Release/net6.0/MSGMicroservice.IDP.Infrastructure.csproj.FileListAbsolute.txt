@@ -1,0 +1,14 @@
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Release\net6.0\MSGMicroservice.IDP.Infrastructure.deps.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Release\net6.0\MSGMicroservice.IDP.Infrastructure.runtimeconfig.json
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Release\net6.0\MSGMicroservice.IDP.Infrastructure.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Release\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.csproj.AssemblyReference.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.AssemblyInfoInputs.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.AssemblyInfo.cs
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.csproj.CoreCompileInputs.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\refint\MSGMicroservice.IDP.Infrastructure.dll
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.genruntimeconfig.cache
+C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\ref\MSGMicroservice.IDP.Infrastructure.dll
