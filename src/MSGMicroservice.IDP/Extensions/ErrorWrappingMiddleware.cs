@@ -1,53 +1,58 @@
+using System;
 using System.Text.Json;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.Extensions.Logging;
 using MSGMicroservice.IDP.Infrastructure.Common.ApiResult;
 
-namespace MSGMicroservice.IDP.Extensions;
-
-public class ErrorWrappingMiddleware
+namespace MSGMicroservice.IDP.Extensions
 {
-    private readonly ILogger<ErrorWrappingMiddleware> _logger;
-    private readonly RequestDelegate _next;
-
-    public ErrorWrappingMiddleware(RequestDelegate next, ILogger<ErrorWrappingMiddleware> logger)
+    public class ErrorWrappingMiddleware
     {
-        _next = next;
-        _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-    }
+        private readonly ILogger<ErrorWrappingMiddleware> _logger;
+        private readonly RequestDelegate _next;
 
-    public async Task Invoke(HttpContext context)
-    {
-        var errorMsg = string.Empty;
-        try
+        public ErrorWrappingMiddleware(RequestDelegate next, ILogger<ErrorWrappingMiddleware> logger)
         {
-            await _next.Invoke(context);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, ex.Message);
-            errorMsg = ex.Message;
-            context.Response.StatusCode = 500;
+            _next = next;
+            _logger = logger ?? throw new ArgumentNullException(nameof(logger));
         }
 
-        if (!context.Response.HasStarted && context.Response.StatusCode == 401)
+        public async Task Invoke(HttpContext context)
         {
-            context.Response.ContentType = "application/json";
+            var errorMsg = string.Empty;
+            try
+            {
+                await _next.Invoke(context);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, ex.Message);
+                errorMsg = ex.Message;
+                context.Response.StatusCode = 500;
+            }
 
-            var response = new ApiErrorResult<bool>("You are not authorized!");
+            if (!context.Response.HasStarted && context.Response.StatusCode == 401)
+            {
+                context.Response.ContentType = "application/json";
 
-            var json = JsonSerializer.Serialize(response);
+                var response = new ApiErrorResult<bool>("You are not authorized!");
 
-            await context.Response.WriteAsync(json);
-        }
+                var json = JsonSerializer.Serialize(response);
 
-        if (!context.Response.HasStarted && context.Response.StatusCode != 204)
-        {
-            context.Response.ContentType = "application/json";
+                await context.Response.WriteAsync(json);
+            }
 
-            var response = new ApiErrorResult<bool>(errorMsg);
+            if (!context.Response.HasStarted && context.Response.StatusCode != 204)
+            {
+                context.Response.ContentType = "application/json";
 
-            var json = JsonSerializer.Serialize(response);
+                var response = new ApiErrorResult<bool>(errorMsg);
 
-            await context.Response.WriteAsync(json);
+                var json = JsonSerializer.Serialize(response);
+
+                await context.Response.WriteAsync(json);
+            }
         }
     }
 }

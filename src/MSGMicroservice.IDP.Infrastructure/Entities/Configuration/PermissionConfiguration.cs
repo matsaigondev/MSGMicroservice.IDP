@@ -1,25 +1,27 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using MSGMicroservice.IDP.Infrastructure.Common;
+using MSGMicroservice.IDP.Infrastructure.Entities;
 
-namespace MSGMicroservice.IDP.Infrastructure.Entities.Configuration;
-
-public class PermissionConfiguration : IEntityTypeConfiguration<Permission>
+namespace MSGMicroservice.IDP.Infrastructure.Entities.Configuration
 {
-    public void Configure(EntityTypeBuilder<Permission> builder)
+    public class PermissionConfiguration : IEntityTypeConfiguration<Permission>
     {
-        builder.ToTable("Permissions", SystemConstants.IdentitySchema)
-            .HasKey(x => x.Id);
+        public void Configure(EntityTypeBuilder<Permission> builder)
+        {
+            builder.ToTable("Permissions", SystemConstants.IdentitySchema)
+                .HasKey(x => x.Id);
 
-        builder.Property(x => x.Id)
-            .ValueGeneratedOnAdd();
+            builder.Property(x => x.Id)
+                .ValueGeneratedOnAdd();
 
-        builder
-            .HasIndex(c => new { c.RoleId, c.Function, c.Command })
-            .IsUnique();
+            builder
+                .HasIndex(c => new {c.RoleId, c.Function, c.Command})
+                .IsUnique();
+        }
     }
-}
 //product - add - Admin
 //product - edit - Admin
 //product - view - Admin
 //product - delete - Admin
+}

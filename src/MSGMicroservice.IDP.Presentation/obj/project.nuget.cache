@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z/EsIR8DvhYP3bFTeZeDjq7B4UNpj/KlGNh5obrEQZBCEvEFakjdSEKTRC0HVUwtjNOxXZJsLVHhT6ACXO04Qg==",
+  "dgSpecHash": "R+EYwSwOLjdgBOZ56phgD/jc4jYWR8DdEpwM8Qu/fWTXq9D/GsHuMWAUapD8OQ6aPdw3lnSsV0UyE0p6inkXtA==",
   "success": true,
-  "projectFilePath": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj",
+  "projectFilePath": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\QUOCHUY\\.nuget\\packages\\automapper\\11.0.0\\automapper.11.0.0.nupkg.sha512",
     "C:\\Users\\QUOCHUY\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

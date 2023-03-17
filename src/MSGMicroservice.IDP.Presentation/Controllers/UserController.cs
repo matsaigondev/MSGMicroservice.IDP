@@ -200,6 +200,8 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
             {
                 return NotFound();
             }
+
+            await _permissionRepository.DeletePermissionById(id);
             _response.StatusCode = HttpStatusCode.OK;
             _response.IsSuccess = true;
             _response.Result = "Deleted role successful";

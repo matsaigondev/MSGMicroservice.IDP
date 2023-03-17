@@ -11,5 +11,6 @@
         public bool Export { get; set; }
         public bool Show { get; set; }
         public bool Print { get; set; }
+        public string RoleId { get; set; }
     }
 }

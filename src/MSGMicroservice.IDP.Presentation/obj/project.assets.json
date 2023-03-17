@@ -6114,11 +6114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj",
+      "projectUniqueName": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj",
       "projectName": "MSGMicroservice.IDP.Presentation",
-      "projectPath": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj",
+      "projectPath": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj",
       "packagesPath": "C:\\Users\\QUOCHUY\\.nuget\\packages\\",
-      "outputPath": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\obj\\",
+      "outputPath": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\QUOCHUY\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6135,8 +6135,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj": {
-              "projectPath": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj"
+            "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj": {
+              "projectPath": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj"
             }
           }
         }

@@ -1,55 +1,61 @@
+using System;
+using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Linq.Expressions;
+using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace MSGMicroservice.IDP.Infrastructure.Domains;
-
-public interface IRepositoryBase<T, K>
-    where T : EntityBase<K>
+namespace MSGMicroservice.IDP.Infrastructure.Domains
 {
-    #region Query
 
-    IQueryable<T> FindAll(bool trackChanges = false);
-    IQueryable<T> FindAll(bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties);
-    IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false);
+    public interface IRepositoryBase<T, K>
+        where T : EntityBase<K>
+    {
+        #region Query
 
-    IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false,
-        params Expression<Func<T, object>>[] includeProperties);
+        IQueryable<T> FindAll(bool trackChanges = false);
+        IQueryable<T> FindAll(bool trackChanges = false, params Expression<Func<T, object>>[] includeProperties);
+        IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false);
 
-    Task<T?> GetByIdAsync(K id);
-    Task<T?> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties);
+        IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression, bool trackChanges = false,
+            params Expression<Func<T, object>>[] includeProperties);
 
-    #endregion
+        Task<T?> GetByIdAsync(K id);
+        Task<T?> GetByIdAsync(K id, params Expression<Func<T, object>>[] includeProperties);
 
-    #region Action
+        #endregion
 
-    Task<K> CreateAsync(T entity);
-    Task UpdateAsync(T entity);
-    Task UpdateListAsync(IEnumerable<T> entities);
-    Task DeleteAsync(T entity);
-    Task DeleteListAsync(IEnumerable<T> entities);
+        #region Action
 
-    #endregion Action
+        Task<K> CreateAsync(T entity);
+        Task UpdateAsync(T entity);
+        Task UpdateListAsync(IEnumerable<T> entities);
+        Task DeleteAsync(T entity);
+        Task DeleteListAsync(IEnumerable<T> entities);
 
-    #region Dapper
+        #endregion Action
 
-    Task<IReadOnlyList<TModel>> QueryAsync<TModel>(string sql, object? param,
-        CommandType? commandType, IDbTransaction? transaction, int? commandTimeout) where TModel : EntityBase<K>;
-    
-    Task<TModel> QueryFirstOrDefaultAsync<TModel>(string sql, object? param,
-        CommandType? commandType, IDbTransaction? transaction, int? commandTimeout) where TModel : EntityBase<K>;
+        #region Dapper
 
-    Task<TModel> QuerySingleAsync<TModel>(string sql, object? param,
-        CommandType? commandType, IDbTransaction? transaction, int? commandTimeout)
-        where TModel : EntityBase<K>;
+        Task<IReadOnlyList<TModel>> QueryAsync<TModel>(string sql, object? param,
+            CommandType? commandType, IDbTransaction? transaction, int? commandTimeout) where TModel : EntityBase<K>;
 
-    Task<int> ExecuteAsync(string sql, object? param,
-        CommandType? commandType, IDbTransaction? transaction, int? commandTimeout);
+        Task<TModel> QueryFirstOrDefaultAsync<TModel>(string sql, object? param,
+            CommandType? commandType, IDbTransaction? transaction, int? commandTimeout) where TModel : EntityBase<K>;
 
-    #endregion Dapper
+        Task<TModel> QuerySingleAsync<TModel>(string sql, object? param,
+            CommandType? commandType, IDbTransaction? transaction, int? commandTimeout)
+            where TModel : EntityBase<K>;
 
-    Task<int> SaveChangesAsync();
-    Task<IDbContextTransaction> BeginTransactionAsync();
-    Task EndTransactionAsync();
-    Task RollbackTransactionAsync();
+        Task<int> ExecuteAsync(string sql, object? param,
+            CommandType? commandType, IDbTransaction? transaction, int? commandTimeout);
+
+        #endregion Dapper
+
+        Task<int> SaveChangesAsync();
+        Task<IDbContextTransaction> BeginTransactionAsync();
+        Task EndTransactionAsync();
+        Task RollbackTransactionAsync();
+    }
 }

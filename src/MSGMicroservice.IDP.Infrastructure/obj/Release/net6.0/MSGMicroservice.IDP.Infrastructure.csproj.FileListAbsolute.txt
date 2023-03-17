@@ -12,3 +12,17 @@ C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructu
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.genruntimeconfig.cache
 C:\MSG PROJECTS\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\ref\MSGMicroservice.IDP.Infrastructure.dll
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Release\net6.0\MSGMicroservice.IDP.Infrastructure.deps.json
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Release\net6.0\MSGMicroservice.IDP.Infrastructure.runtimeconfig.json
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Release\net6.0\MSGMicroservice.IDP.Infrastructure.dll
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Release\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.csproj.AssemblyReference.cache
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.AssemblyInfoInputs.cache
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.AssemblyInfo.cs
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.csproj.CoreCompileInputs.cache
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.dll
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\refint\MSGMicroservice.IDP.Infrastructure.dll
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\MSGMicroservice.IDP.Infrastructure.genruntimeconfig.cache
+C:\_WORKING\_NEW 2023-02\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Release\net6.0\ref\MSGMicroservice.IDP.Infrastructure.dll

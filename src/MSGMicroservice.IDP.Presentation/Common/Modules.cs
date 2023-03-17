@@ -7,6 +7,12 @@
         CUSTOMER,
         PERMISSION,
         PROJECT,
-        USER
+        USER,
+        SETTING,
+        ABR,
+        REPORT,
+        CRM,
+        HIS,
+        NPS
     }
 }

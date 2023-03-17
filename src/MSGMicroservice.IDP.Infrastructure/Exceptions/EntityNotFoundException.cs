@@ -1,8 +1,11 @@
-namespace MSGMicroservice.IDP.Infrastructure.Exceptions;
+using System;
 
-public class EntityNotFoundException : ApplicationException
+namespace MSGMicroservice.IDP.Infrastructure.Exceptions
 {
-    public EntityNotFoundException() : base("Entity was not found.")
+    public class EntityNotFoundException : ApplicationException
     {
+        public EntityNotFoundException() : base("Entity was not found.")
+        {
+        }
     }
 }

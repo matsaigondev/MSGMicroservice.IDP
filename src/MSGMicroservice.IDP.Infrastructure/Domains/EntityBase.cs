@@ -1,6 +1,9 @@
-namespace MSGMicroservice.IDP.Infrastructure.Domains;
+using MSGMicroservice.IDP.Infrastructure.Domains;
 
-public abstract class EntityBase<TKey> : IEntityBase<TKey>
+namespace MSGMicroservice.IDP.Infrastructure.Domains
 {
-    public TKey Id { get; set; }
+    public abstract class EntityBase<TKey> : IEntityBase<TKey>
+    {
+        public TKey Id { get; set; }
+    }
 }

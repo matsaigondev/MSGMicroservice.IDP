@@ -129,7 +129,8 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                     Address = string.IsNullOrEmpty(registerRequestDto.Address)?"":registerRequestDto.Address,
                     EmailConfirmed = true,
                     PhoneNumber = registerRequestDto.PhoneNumber,
-                    Id = Guid.NewGuid().ToString()
+                    Id = Guid.NewGuid().ToString(),
+                    HospitalId = registerRequestDto.HospitalId
                 };
 
                 try
@@ -154,6 +155,17 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
 
                         var userToReturn = _userManager.Users
                             .FirstOrDefault(u => u.UserName == _strUserName);
+                        
+                        //update name
+                        var sql = "update [MSGIdentity].[Identity].[Users] set FirstName = @firstName, LastName = @lastName where Id = @id";
+                        using (var connection = _dapperContext.CreateConnection())
+                        {
+                            var dynamicParam = new DynamicParameters();
+                            dynamicParam.Add("@firstName", registerRequestDto.FirstName.ToUpper());
+                            dynamicParam.Add("@lastName", registerRequestDto.LastName.ToUpper());
+                            dynamicParam.Add("@id", user.Id);
+                            await connection.ExecuteAsync(sql, dynamicParam);
+                        }
                         return _mapper.Map<UserDTO>(userToReturn);
                     }
                 }
@@ -176,11 +188,12 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             {
                 var user = await _userManager.Users.Where(x => x.UserName.Equals(registerRequestDto.UserName))
                     .FirstOrDefaultAsync();
-                user.FirstName = registerRequestDto.FirstName.ToUpper();
-                user.LastName = registerRequestDto.LastName.ToUpper();
+                // user.FirstName = registerRequestDto.FirstName.ToUpper();
+                // user.LastName = registerRequestDto.LastName.ToUpper();
                 user.Address = registerRequestDto.Address;
                 user.Email = registerRequestDto.Email;
                 user.PhoneNumber = registerRequestDto.PhoneNumber;
+                user.HospitalId = registerRequestDto.HospitalId;
                 // if (!IsUniqueUser(registerRequestDto.PhoneNumber) || !IsUniqueEmail(registerRequestDto.Email))
                 //     return false;
                 var result = await _userManager.UpdateAsync(user);
@@ -190,7 +203,6 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                 {
                     //changed another role need to update
                     //1.remove first
-                    
                     var getRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.OldRole))
                         .FirstOrDefaultAsync();
                     if (getRoleOld != null)
@@ -201,8 +213,20 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                         .FirstOrDefaultAsync();
                     await _userManager.AddToRoleAsync(user, getRole.Name);
                 }
+
                 if (result.Succeeded)
+                {
+                    var sql = "update [MSGIdentity].[Identity].[Users] set FirstName = @firstName, LastName = @lastName where Id = @id";
+                    using (var connection = _dapperContext.CreateConnection())
+                    {
+                        var dynamicParam = new DynamicParameters();
+                        dynamicParam.Add("@firstName", registerRequestDto.FirstName.ToUpper());
+                        dynamicParam.Add("@lastName", registerRequestDto.LastName.ToUpper());
+                        dynamicParam.Add("@id", user.Id);
+                        await connection.ExecuteAsync(sql, dynamicParam);
+                    }
                     return true;
+                }
             }
             catch (Exception e)
             {
@@ -355,7 +379,7 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
 
         public async Task<PagedResult<UserDTO>> GetUsersPaging(GetCommonPaging request)
         {
-            var user = await _userManager.Users
+            var user = await _userManager.Users.Where(x=>x.UserName!="alice@example.com")
                 .ToListAsync();
 
             var result = _mapper.Map<List<UserDTO>>(user);
@@ -385,7 +409,7 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
 
         public async Task<List<RoleDTO>> GetRoles()
         {
-            var roles = await _roleManager.Roles.ToListAsync();
+            var roles = await _roleManager.Roles.OrderBy(x=>x.Name).ToListAsync();
             var result = _mapper.Map<List<RoleDTO>>(roles);
             return result;
         }

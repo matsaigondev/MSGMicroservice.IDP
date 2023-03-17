@@ -1,23 +1,26 @@
+using System.Threading.Tasks;
+using MSGMicroservice.IDP.Infrastructure.Domains;
 using MSGMicroservice.IDP.Persistence;
 
-namespace MSGMicroservice.IDP.Infrastructure.Domains;
-
-public class UnitOfWork : IUnitOfWork
+namespace MSGMicroservice.IDP.Infrastructure.Domains
 {
-    private readonly MsgIdentityContext _context;
-
-    public UnitOfWork(MsgIdentityContext context)
+    public class UnitOfWork : IUnitOfWork
     {
-        _context = context;
-    }
+        private readonly MsgIdentityContext _context;
 
-    public void Dispose()
-    {
-        _context.Dispose();
-    }
+        public UnitOfWork(MsgIdentityContext context)
+        {
+            _context = context;
+        }
 
-    public Task<int> CommitAsync()
-    {
-        return _context.SaveChangesAsync();
+        public void Dispose()
+        {
+            _context.Dispose();
+        }
+
+        public Task<int> CommitAsync()
+        {
+            return _context.SaveChangesAsync();
+        }
     }
 }

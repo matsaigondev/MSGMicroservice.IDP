@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "qgHPs6hLW6KKG++s98BbI4OJM2t0PRjc1bGhAXOr8Uk=",
+  "Hash": "zG9umS7gxp7jFBjyIKKcNMI/RuOsaQ90qsXwBGLfH5Y=",
   "Source": "MSGMicroservice.IDP",
   "BasePath": "_content/MSGMicroservice.IDP",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj",
       "Version": 2,
       "Source": "MSGMicroservice.IDP.Presentation",
       "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
@@ -22,17 +22,17 @@
     {
       "Name": "MSGMicroservice.IDP\\wwwroot",
       "Source": "MSGMicroservice.IDP",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\.DS_Store",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\.DS_Store",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": ".DS_Store",
       "AssetKind": "All",
@@ -46,10 +46,10 @@
       "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\css\\site.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\css\\site.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -63,10 +63,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\css\\site.min.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\css\\site.min.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "css/site.min.css",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.min.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\css\\site.scss",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\css\\site.scss",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "css/site.scss",
       "AssetKind": "All",
@@ -97,10 +97,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.scss"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\duende-logo.svg",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\duende-logo.svg",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "duende-logo.svg",
       "AssetKind": "All",
@@ -114,10 +114,10 @@
       "OriginalItemSpec": "wwwroot\\duende-logo.svg"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\favicon.ico",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\favicon.ico",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\js\\signin-redirect.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\js\\signin-redirect.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "js/signin-redirect.js",
       "AssetKind": "All",
@@ -148,10 +148,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signin-redirect.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\js\\signout-redirect.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\js\\signout-redirect.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "js/signout-redirect.js",
       "AssetKind": "All",
@@ -165,10 +165,10 @@
       "OriginalItemSpec": "wwwroot\\js\\signout-redirect.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\.DS_Store",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\.DS_Store",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/.DS_Store",
       "AssetKind": "All",
@@ -182,10 +182,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\.DS_Store"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -199,10 +199,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -216,10 +216,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -233,10 +233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -250,10 +250,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -267,10 +267,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -284,10 +284,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -301,10 +301,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -318,10 +318,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -335,10 +335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -352,10 +352,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -369,10 +369,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -386,10 +386,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -403,10 +403,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -420,10 +420,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -437,10 +437,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -471,10 +471,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -488,10 +488,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -505,10 +505,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -522,10 +522,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -539,10 +539,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\README.md",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap\\README.md",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap/README.md",
       "AssetKind": "All",
@@ -556,10 +556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\README.md"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/css/bootstrap-glyphicons.css",
       "AssetKind": "All",
@@ -573,10 +573,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.min.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.min.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/css/bootstrap-glyphicons.min.css",
       "AssetKind": "All",
@@ -590,10 +590,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\css\\bootstrap-glyphicons.min.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.eot",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.eot",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.eot",
       "AssetKind": "All",
@@ -607,10 +607,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.eot"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.svg",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.svg",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.svg",
       "AssetKind": "All",
@@ -624,10 +624,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.svg"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.ttf",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.ttf",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.ttf",
       "AssetKind": "All",
@@ -641,10 +641,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.ttf"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.woff",
       "AssetKind": "All",
@@ -658,10 +658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff2",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff2",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/fonts/glyphicons/glyphicons-halflings-regular.woff2",
       "AssetKind": "All",
@@ -675,10 +675,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\fonts\\glyphicons\\glyphicons-halflings-regular.woff2"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\LICENSE",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\LICENSE",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/LICENSE",
       "AssetKind": "All",
@@ -692,10 +692,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\LICENSE"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/maps/glyphicons-fontawesome.css",
       "AssetKind": "All",
@@ -709,10 +709,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.less",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.less",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/maps/glyphicons-fontawesome.less",
       "AssetKind": "All",
@@ -726,10 +726,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.less"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.min.css",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.min.css",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/bootstrap4-glyphicons/maps/glyphicons-fontawesome.min.css",
       "AssetKind": "All",
@@ -743,10 +743,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap4-glyphicons\\maps\\glyphicons-fontawesome.min.css"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -760,10 +760,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -794,10 +794,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/jquery/dist/jquery.slim.js",
       "AssetKind": "All",
@@ -811,10 +811,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/jquery/dist/jquery.slim.min.js",
       "AssetKind": "All",
@@ -828,10 +828,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/jquery/dist/jquery.slim.min.map",
       "AssetKind": "All",
@@ -845,10 +845,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -862,10 +862,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\README.md",
+      "Identity": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\lib\\jquery\\README.md",
       "SourceId": "MSGMicroservice.IDP",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
+      "ContentRoot": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP\\wwwroot\\",
       "BasePath": "_content/MSGMicroservice.IDP",
       "RelativePath": "lib/jquery/README.md",
       "AssetKind": "All",

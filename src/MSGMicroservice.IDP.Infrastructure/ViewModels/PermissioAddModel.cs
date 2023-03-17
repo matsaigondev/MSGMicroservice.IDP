@@ -1,7 +1,8 @@
-namespace MSGMicroservice.IDP.Infrastructure.ViewModels;
-
-public class PermissioAddModel
+namespace MSGMicroservice.IDP.Infrastructure.ViewModels
 {
-    public string Function { get; set; }
-    public string Command { get; set; }
+    public class PermissioAddModel
+    {
+        public string Function { get; set; }
+        public string Command { get; set; }
+    }
 }

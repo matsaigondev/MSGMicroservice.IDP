@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using System.Data;
+using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
 using Dapper;
@@ -83,6 +84,13 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             parameters.Add("@function", function, DbType.String);
             parameters.Add("@command", command, DbType.String);
             return ExecuteAsync("Delete_Permission", parameters);
+        }
+
+        public Task DeletePermissionById(string roleId)
+        {
+            var parameters = new DynamicParameters();
+            parameters.Add("@roleId", roleId, DbType.String);
+            return ExecuteAsync("Delete_Permission_ByRoleId", parameters);
         }
 
         public Task UpdatePermissionsByRoleId(string roleId, IEnumerable<PermissioAddModel> permissionCollection)

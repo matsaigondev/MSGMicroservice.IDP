@@ -1,6 +1,7 @@
-namespace MSGMicroservice.IDP.Presentation;
-
-public static class AssemblyReference
+namespace MSGMicroservice.IDP.Presentation
 {
-    //dung lam tham chieu tu project MSGMicroservice.IDP
+    public static class AssemblyReference
+    {
+        //dung lam tham chieu tu project MSGMicroservice.IDP
+    }
 }

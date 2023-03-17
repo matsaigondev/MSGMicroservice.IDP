@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj": {}
+    "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj": {
+    "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj",
+        "projectUniqueName": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj",
         "projectName": "MSGMicroservice.IDP.Infrastructure",
-        "projectPath": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj",
+        "projectPath": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\QUOCHUY\\.nuget\\packages\\",
-        "outputPath": "C:\\MSG PROJECTS\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\obj\\",
+        "outputPath": "C:\\_WORKING\\_NEW 2023-02\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\QUOCHUY\\AppData\\Roaming\\NuGet\\NuGet.Config",

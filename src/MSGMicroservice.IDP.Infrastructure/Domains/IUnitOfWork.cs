@@ -1,6 +1,10 @@
-namespace MSGMicroservice.IDP.Infrastructure.Domains;
+using System;
+using System.Threading.Tasks;
 
-public interface IUnitOfWork : IDisposable
+namespace MSGMicroservice.IDP.Infrastructure.Domains
 {
-    Task<int> CommitAsync();
+    public interface IUnitOfWork : IDisposable
+    {
+        Task<int> CommitAsync();
+    }
 }
