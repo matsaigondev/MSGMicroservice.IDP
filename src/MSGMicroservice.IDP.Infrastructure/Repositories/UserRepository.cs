@@ -15,6 +15,7 @@ using Microsoft.IdentityModel.Tokens;
 using MSGMicroservice.IDP.Infrastructure.Common;
 using MSGMicroservice.IDP.Infrastructure.Domains;
 using MSGMicroservice.IDP.Infrastructure.Entities;
+using MSGMicroservice.IDP.Infrastructure.Exceptions;
 using MSGMicroservice.IDP.Infrastructure.ViewModels;
 using MSGMicroservice.IDP.Persistence;
 
@@ -135,7 +136,7 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
 
                 try
                 {
-                    registerRequestDto.Password = "P@ssw0rd";
+                    registerRequestDto.Password = "P@ssw0rd321!";
                     var resultUser = await _userManager.CreateAsync(user, registerRequestDto.Password);
                     if (resultUser.Succeeded)
                     {
@@ -145,12 +146,15 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                             await _roleManager.CreateAsync(new IdentityRole("customer"));
                         }
 
-                        if (string.IsNullOrEmpty(registerRequestDto.Role))
+                        if (registerRequestDto.Roles.Count() == 0)
                             await _userManager.AddToRoleAsync(user, "customer");
                         else
                         {
-                            var roleName = await _roleManager.Roles.Where(x=>x.Id.Equals(registerRequestDto.Role)).FirstOrDefaultAsync();
-                            await _userManager.AddToRoleAsync(user, roleName.Name);
+                            foreach (var i in registerRequestDto.Roles)
+                            {
+                                var roleName = await _roleManager.Roles.Where(x => x.Id.Equals(i)).FirstOrDefaultAsync();
+                                await _userManager.AddToRoleAsync(user, roleName.Name);
+                            }
                         }
 
                         var userToReturn = _userManager.Users
@@ -198,22 +202,41 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                 //     return false;
                 var result = await _userManager.UpdateAsync(user);
                 //if role <> current
-                var _userRole = _userManager.IsInRoleAsync(user, registerRequestDto.Role).Result;
-                if (!_userRole)
+                //for multi roles
+                if (!ListExtensions.SetwiseEquivalentTo(registerRequestDto.OldRoles, registerRequestDto.Roles))
                 {
-                    //changed another role need to update
-                    //1.remove first
-                    var getRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.OldRole))
-                        .FirstOrDefaultAsync();
-                    if (getRoleOld != null)
-                        await _userManager.RemoveFromRoleAsync(user, getRoleOld.Name);
-                    
-                    //2.add new role
-                    var getRole = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.Role))
-                        .FirstOrDefaultAsync();
-                    await _userManager.AddToRoleAsync(user, getRole.Name);
-                }
+                    foreach (var i in registerRequestDto.OldRoles)
+                    {
+                        //for a role
+                        //var _userRole = _userManager.IsInRoleAsync(user, registerRequestDto.Role).Result;
+                        var getCurrentRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(i))
+                            .FirstOrDefaultAsync();
+                        if (getCurrentRoleOld != null)
+                            await _userManager.RemoveFromRoleAsync(user, getCurrentRoleOld.Name);
+                        //var _userRole = _userManager.IsInRoleAsync(user, registerRequestDto.Role).Result;
+                        //if (!_userRole)
+                        //{
+                        //    //changed another role need to update
+                        //    //1.remove first
+                        //    var getRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.OldRole))
+                        //        .FirstOrDefaultAsync();
+                        //    if (getRoleOld != null)
+                        //        await _userManager.RemoveFromRoleAsync(user, getRoleOld.Name);
 
+                        //    //2.add new role
+                        //    var getRole = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.Role))
+                        //        .FirstOrDefaultAsync();
+                        //    await _userManager.AddToRoleAsync(user, getRole.Name);
+                        //}
+                    }
+                    foreach (var j in registerRequestDto.Roles)
+                    {
+                        //2.add new role
+                        var getNewRole = await _roleManager.Roles.Where(x => x.Id.Equals(j))
+                            .FirstOrDefaultAsync();
+                        await _userManager.AddToRoleAsync(user, getNewRole.Name);
+                    }
+                }
                 if (result.Succeeded)
                 {
                     var sql = "update [MSGIdentity].[Identity].[Users] set FirstName = @firstName, LastName = @lastName where Id = @id";
@@ -520,6 +543,6 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                 Console.WriteLine(e);
                 return false;
             }
-        }
+        } 
     }
 }

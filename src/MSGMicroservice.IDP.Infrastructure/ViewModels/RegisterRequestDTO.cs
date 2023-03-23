@@ -10,7 +10,8 @@
         public string? Email { get; set; }
         public string? PhoneNumber { get; set; }
         public string? Role { get; set; }
-        public string? OldRole { get; set; }
+        public List<string>? Roles { get; set; }
+        public List<string>? OldRoles { get; set; }
         public int? HospitalId { get; set; }
     }
 }
