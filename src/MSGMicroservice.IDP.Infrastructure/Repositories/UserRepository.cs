@@ -16,6 +16,7 @@ using MSGMicroservice.IDP.Infrastructure.Common;
 using MSGMicroservice.IDP.Infrastructure.Domains;
 using MSGMicroservice.IDP.Infrastructure.Entities;
 using MSGMicroservice.IDP.Infrastructure.Exceptions;
+using MSGMicroservice.IDP.Infrastructure.Repositories.Interfaces;
 using MSGMicroservice.IDP.Infrastructure.ViewModels;
 using MSGMicroservice.IDP.Persistence;
 
@@ -40,7 +41,7 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             _dapperContext = dapperContext;
             secretKey = configuration.GetValue<string>("ApiSettings:Secret");
         }
-        
+
         public async Task<UserDTO?> Register(RegisterRequestDTO registerRequestDto)
         {
             //1. check username exist?
@@ -152,8 +153,8 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                         {
                             foreach (var i in registerRequestDto.Roles)
                             {
-                                var roleName = await _roleManager.Roles.Where(x => x.Id.Equals(i)).FirstOrDefaultAsync();
-                                await _userManager.AddToRoleAsync(user, roleName.Name);
+                                var roleName = _roleManager.Roles.Where(x => x.Id.Equals(i)).FirstOrDefault();
+                                _userManager.AddToRoleAsync(user, roleName.Name);
                             }
                         }
 
@@ -543,6 +544,6 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                 Console.WriteLine(e);
                 return false;
             }
-        } 
+        }
     }
 }

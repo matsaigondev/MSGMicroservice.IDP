@@ -4,7 +4,9 @@ using System.Net;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using MSGMicroservice.IDP.Infrastructure.Common;
 using MSGMicroservice.IDP.Infrastructure.Repositories;
+using MSGMicroservice.IDP.Infrastructure.Repositories.Interfaces;
 using MSGMicroservice.IDP.Infrastructure.ViewModels;
 using MSGMicroservice.IDP.Presentation.Common;
 
@@ -17,13 +19,15 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
     {
         private readonly IRepositoryManager _repository;
         private readonly IPermissionRepository _permissionRepository;
+        private readonly ISystemRepository _systemRepository;
 
-        public SystemController(IRepositoryManager repository, IPermissionRepository permissionRepository)
+        public SystemController(IRepositoryManager repository, IPermissionRepository permissionRepository, ISystemRepository systemRepository)
         {
             _repository = repository;
             _permissionRepository = permissionRepository;
+            _systemRepository = systemRepository;
         }
-        
+
         [HttpGet("getallpermissions")]
         [ProducesResponseType(typeof(PermissionDTO), (int) HttpStatusCode.OK)]
         public async Task<IActionResult> GetPermissionsGrouped()
@@ -62,7 +66,15 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
             var result = await _permissionRepository.GetPermissionRolesByRole(id);
             return Ok(result);
         }
-        
+
+        [HttpGet("getLogsByPaging")]
+        [ProducesResponseType(typeof(PermissionDTO), (int)HttpStatusCode.OK)]
+        public async Task<IActionResult> GetLogsByPaging([FromQuery] GetCommonPaging model)
+        {
+            var result = await _systemRepository.GetLogsByPaging(model);
+            return Ok(result);
+        }
+
         [HttpPost("updatePermission")]
         public async Task<ActionResult> UpdatePermission([FromBody] PermissionRoleVm model)
         {

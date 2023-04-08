@@ -7,6 +7,7 @@ using Microsoft.Extensions.Hosting;
 using MSGMicroservice.IDP.Common.Systems;
 using MSGMicroservice.IDP.Infrastructure.Domains;
 using MSGMicroservice.IDP.Infrastructure.Repositories;
+using MSGMicroservice.IDP.Infrastructure.Repositories.Interfaces;
 using MSGMicroservice.IDP.Presentation;
 using MSGMicroservice.IDP.Services.EmailService;
 using Serilog;
@@ -40,6 +41,7 @@ namespace MSGMicroservice.IDP.Extensions
                 typeof(UnitOfWork));
             builder.Services.AddTransient(typeof(IRepositoryBase<,>),
                 typeof(RepositoryBase<,>));
+            
             builder.Services.AddScoped<IRepositoryManager, RepositoryManager>();
             builder.Services.AddScoped<IPermissionRepository, PermissionRepository>();
             builder.Services.AddScoped<IUserRepository, UserRepository>();
@@ -55,7 +57,8 @@ namespace MSGMicroservice.IDP.Extensions
             builder.Services.Configure<RouteOptions>(option => option.LowercaseUrls = true);
 
             // DriveInfoHelper.CheckDriveInfo();
-
+            builder.Services.AddScoped<IRepositoryBaseS, RepositoryBaseS>();
+            builder.Services.AddScoped<ISystemRepository, SystemRepository>();
             return builder.Build();
         }
 
