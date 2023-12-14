@@ -29,6 +29,7 @@
         CRM_cdr,
         CRM_library,
         CRM_lead_client,
+        CRM_phaco,
         HIS,
         NPS,
         HRM,
@@ -36,5 +37,15 @@
         HRM_employee,
         FIS,
         FIS_report,
+        Dashboard_crm,
+        Dashboard_abr,
+        Dashboard_fis,
+        Dashboard_nps,
+        Dashboard_his,
+        Dashboard_hrm,
+        Dashboard_hub,
+        Dashboard_115,
+        Dashboard_cam,
+        Wiki
     }
 }

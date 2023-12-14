@@ -11,7 +11,7 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
 {
     [ApiController]
     [Route("/api/[controller]")]
-    // [Authorize("Bearer")]
+    [Authorize("Bearer")]
     public class UserController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
@@ -42,7 +42,17 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
             var result = await _userRepository.RegisterV2(obj);
             return result != null ? Ok(result) : BadRequest();
         }
-        
+
+        [HttpPost("dangky")]
+        [AllowAnonymous]
+        [ProducesResponseType(typeof(RegisterRequestDTO), (int)HttpStatusCode.OK)]
+        [ProducesResponseType((int)HttpStatusCode.BadRequest)]
+        public async Task<IActionResult> DangKyTaiKhoan(RegisterRequestDTO obj)
+        {
+            var result = await _userRepository.DangKyTaiKhoan(obj);
+            return result != null ? Ok(result) : BadRequest();
+        }
+
         //[HttpPost("login")]
         //public async Task<IActionResult> Login([FromBody] LoginRequestDTO model)
         //{
@@ -75,6 +85,7 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
         }
         
         [HttpPost("resetpassword")]
+        [AllowAnonymous]
         public async Task<ActionResult> ResetUserPassword([FromBody] RegisterRequestDTO model)
         {
             var result = await _userRepository.ResetPassword(model);

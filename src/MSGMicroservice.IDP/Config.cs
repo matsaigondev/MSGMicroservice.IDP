@@ -55,41 +55,65 @@ namespace MSGMicroservice.IDP
 
                     RedirectUris = new List<string>()
                     {
-                        //"http://localhost:5001/swagger/oauth2-redirect.html",
+                        "https://localhost:4443/swagger/oauth2-redirect.html",
                         //"http://localhost:5006/swagger/oauth2-redirect.html",
                         //"http://localhost:5002/swagger/oauth2-redirect.html",
                         //"http://localhost:5020/swagger/oauth2-redirect.html",
 
                          "https://localhost:6001/swagger/oauth2-redirect.html",
                         //"https://localhost:6006/swagger/oauth2-redirect.html",
-                        //"https://localhost:6009/swagger/oauth2-redirect.html",
+                        "https://localhost:7050/swagger/oauth2-redirect.html",
+                        "https://localhost:6009/swagger/oauth2-redirect.html",
+                        "https://localhost:6005/swagger/oauth2-redirect.html",
                         //"https://10.120.2.44:6020/swagger/oauth2-redirect.html",
-                        "https://10.120.2.130:443/swagger/oauth2-redirect.html"
+                        "https://10.120.2.133:6001/swagger/oauth2-redirect.html",
+                        "https://10.120.2.130:6001/swagger/oauth2-redirect.html",
+                        "https://10.120.2.130:443/swagger/oauth2-redirect.html",
+                        "https://10.120.2.133:7050/swagger/oauth2-redirect.html",
+                        "https://10.120.2.133:6009/swagger/oauth2-redirect.html",
+                        "https://10.120.2.133:6005/swagger/oauth2-redirect.html"
+                        //"https://api-gateway.medicalsaigon.com/swagger/oauth2-redirect.html"
                     },
                     PostLogoutRedirectUris = new List<string>()
                     {
-                        //"http://localhost:5001/swagger/oauth2-redirect.html",
+                        "https://localhost:4443/swagger/oauth2-redirect.html",
                         //"http://localhost:5006/swagger/oauth2-redirect.html",
                         // "http://localhost:5002/swagger/oauth2-redirect.html",
                         // "http://localhost:5020/swagger/oauth2-redirect.html",
 
                          "https://localhost:6001/swagger/oauth2-redirect.html",
                         //"https://localhost:6006/swagger/oauth2-redirect.html",
-                        //"https://localhost:6009/swagger/oauth2-redirect.html",
+                        "https://localhost:7050/swagger/oauth2-redirect.html",
+                        "https://localhost:6009/swagger/oauth2-redirect.html",
+                        "https://localhost:6005/swagger/oauth2-redirect.html",
                         //"https://10.120.2.44:6020/swagger/oauth2-redirect.html",
-                        "https://10.120.2.130:443/swagger/oauth2-redirect.html"
+                        "https://10.120.2.133:6001/swagger/oauth2-redirect.html",
+                        "https://10.120.2.130:6001/swagger/oauth2-redirect.html",
+                        "https://10.120.2.130:443/swagger/oauth2-redirect.html",
+                        "https://10.120.2.133:7050/swagger/oauth2-redirect.html",
+                        "https://10.120.2.133:6009/swagger/oauth2-redirect.html",
+                        "https://10.120.2.133:6005/swagger/oauth2-redirect.html"
+                        //"https://api-gateway.medicalsaigon.com/swagger/oauth2-redirect.html"
                     },
                     AllowedCorsOrigins = new List<string>()
                     {
-                        //"http://localhost:5001",
+                        "https://localhost:4443",
                         //"http://localhost:5006",
                         // "http://localhost:5020",
 
                          "https://localhost:6001",
                         //"https://localhost:6006",
-                        //"https://localhost:6009",
+                        "https://localhost:7050",
+                        "https://localhost:6009",
+                        "https://localhost:6005",
                         //"https://10.120.2.44:6020",
-                        "https://10.120.2.130:443"
+                        "https://10.120.2.133:6001",
+                        "https://10.120.2.130:6001",
+                        "https://10.120.2.130:443",
+                        "https://10.120.2.133:7050",
+                        "https://10.120.2.133:6009",
+                        "https://10.120.2.133:6005"
+                        //"https://api-gateway.medicalsaigon.com"
                     },
                     AllowedScopes =
                     {

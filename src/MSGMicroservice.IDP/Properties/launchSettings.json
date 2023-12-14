@@ -3,7 +3,7 @@
     "SelfHost": {
       "commandName": "Project",
       "launchBrowser": true,
-      "applicationUrl": "https://localhost:6001",//;https://localhost:6009
+      "applicationUrl": "https://localhost:6001",//"https://10.120.2.130:6001", //"https://10.120.2.133:6001",//;https://localhost:6009
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }

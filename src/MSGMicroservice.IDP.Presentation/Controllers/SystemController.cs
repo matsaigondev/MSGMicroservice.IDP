@@ -70,6 +70,7 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
                 new PermissionDTO {Function = Modules.CRM_cdr.ToString()},
                 new PermissionDTO {Function = Modules.CRM_library.ToString()},
                 new PermissionDTO {Function = Modules.CRM_lead_client.ToString()},
+                new PermissionDTO {Function = Modules.CRM_phaco.ToString()},
                 new PermissionDTO {Function = Modules.HIS.ToString()},
                 new PermissionDTO {Function = Modules.NPS.ToString()},
                 new PermissionDTO {Function = Modules.HRM.ToString()},
@@ -77,6 +78,16 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
                 new PermissionDTO {Function = Modules.HRM_employee.ToString()},
                 new PermissionDTO {Function = Modules.FIS.ToString()},
                 new PermissionDTO {Function = Modules.FIS_report.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_abr.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_crm.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_fis.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_his.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_hrm.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_nps.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_hub.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_115.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_cam.ToString()},
+                new PermissionDTO {Function = Modules.Wiki.ToString()},
             });
             return Ok(_addList.ToList().OrderBy(x => x.Function));
         }

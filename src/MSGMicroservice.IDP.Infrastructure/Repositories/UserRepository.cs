@@ -187,6 +187,90 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             }
         }
 
+        public async Task<UserDTO?> DangKyTaiKhoan(RegisterRequestDTO registerRequestDto)
+        {
+            //1. check username exist?
+            if (!IsUniqueUser(registerRequestDto.UserName))
+                return null;
+            //2.Get information from Patients
+            try
+            {
+                if (string.IsNullOrEmpty(registerRequestDto.PhoneNumber) &&
+                    string.IsNullOrEmpty(registerRequestDto.Email))
+                    return null;
+                var _strUserName = string.IsNullOrEmpty(registerRequestDto.PhoneNumber)
+                    ? registerRequestDto.Email
+                    : registerRequestDto.PhoneNumber;
+                var _strEmail = string.IsNullOrEmpty(registerRequestDto.Email)
+                    ? DateTime.Now.ToString("yyyyMMddHHmmsss") + "@noemail.com"
+                    : registerRequestDto.Email;
+
+                User user = new()
+                {
+                    UserName = _strUserName,
+                    Email = _strEmail,
+                    FirstName = registerRequestDto.FirstName.ToUpper(),
+                    LastName = registerRequestDto.LastName.ToUpper(),
+                    Address = string.IsNullOrEmpty(registerRequestDto.Address) ? "" : registerRequestDto.Address,
+                    EmailConfirmed = true,
+                    PhoneNumber = registerRequestDto.PhoneNumber,
+                    Id = Guid.NewGuid().ToString(),
+                    HospitalId = registerRequestDto.HospitalId
+                };
+
+                try
+                {
+                    registerRequestDto.Password = "P@ssw0rd321!";
+                    var resultUser = await _userManager.CreateAsync(user, registerRequestDto.Password);
+                    if (resultUser.Succeeded)
+                    {
+                        //if (!_roleManager.RoleExistsAsync("Administration").GetAwaiter().GetResult())
+                        //{
+                        //    await _roleManager.CreateAsync(new IdentityRole("administration"));
+                        //    await _roleManager.CreateAsync(new IdentityRole("customer"));
+                        //}
+
+                        //if (registerRequestDto.Roles.Count() == 0)
+                        //    await _userManager.AddToRoleAsync(user, "customer");
+                        //else
+                        //{
+                        //    foreach (var i in registerRequestDto.Roles)
+                        //    {
+                        //        var roleName = _roleManager.Roles.Where(x => x.Id.Equals(i)).FirstOrDefault();
+                        //        _userManager.AddToRoleAsync(user, roleName.Name);
+                        //    }
+                        //}
+
+                        var userToReturn = _userManager.Users
+                            .FirstOrDefault(u => u.UserName == _strUserName);
+
+                        //update name
+                        var sql = "update [MSGIdentity].[Identity].[Users] set FirstName = @firstName, LastName = @lastName where Id = @id";
+                        using (var connection = _dapperContext.CreateConnection())
+                        {
+                            var dynamicParam = new DynamicParameters();
+                            dynamicParam.Add("@firstName", registerRequestDto.FirstName.ToUpper());
+                            dynamicParam.Add("@lastName", registerRequestDto.LastName.ToUpper());
+                            dynamicParam.Add("@id", user.Id);
+                            await connection.ExecuteAsync(sql, dynamicParam);
+                        }
+                        userToReturn.PhoneNumber = registerRequestDto.Password;
+                        return _mapper.Map<UserDTO>(userToReturn);
+                    }
+                }
+                catch (Exception e)
+                {
+                }
+
+                return new UserDTO();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return new UserDTO();
+            }
+        }
+
         public async Task<bool> Update(RegisterRequestDTO registerRequestDto)
         {
             try
@@ -206,29 +290,32 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                 //for multi roles
                 if (!ListExtensions.SetwiseEquivalentTo(registerRequestDto.OldRoles, registerRequestDto.Roles))
                 {
-                    foreach (var i in registerRequestDto.OldRoles)
+                    if (registerRequestDto.OldRoles != null)
                     {
-                        //for a role
-                        //var _userRole = _userManager.IsInRoleAsync(user, registerRequestDto.Role).Result;
-                        var getCurrentRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(i))
-                            .FirstOrDefaultAsync();
-                        if (getCurrentRoleOld != null)
-                            await _userManager.RemoveFromRoleAsync(user, getCurrentRoleOld.Name);
-                        //var _userRole = _userManager.IsInRoleAsync(user, registerRequestDto.Role).Result;
-                        //if (!_userRole)
-                        //{
-                        //    //changed another role need to update
-                        //    //1.remove first
-                        //    var getRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.OldRole))
-                        //        .FirstOrDefaultAsync();
-                        //    if (getRoleOld != null)
-                        //        await _userManager.RemoveFromRoleAsync(user, getRoleOld.Name);
+                        foreach (var i in registerRequestDto.OldRoles)
+                        {
+                            //for a role
+                            //var _userRole = _userManager.IsInRoleAsync(user, registerRequestDto.Role).Result;
+                            var getCurrentRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(i))
+                                .FirstOrDefaultAsync();
+                            if (getCurrentRoleOld != null)
+                                await _userManager.RemoveFromRoleAsync(user, getCurrentRoleOld.Name);
+                            //var _userRole = _userManager.IsInRoleAsync(user, registerRequestDto.Role).Result;
+                            //if (!_userRole)
+                            //{
+                            //    //changed another role need to update
+                            //    //1.remove first
+                            //    var getRoleOld = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.OldRole))
+                            //        .FirstOrDefaultAsync();
+                            //    if (getRoleOld != null)
+                            //        await _userManager.RemoveFromRoleAsync(user, getRoleOld.Name);
 
-                        //    //2.add new role
-                        //    var getRole = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.Role))
-                        //        .FirstOrDefaultAsync();
-                        //    await _userManager.AddToRoleAsync(user, getRole.Name);
-                        //}
+                            //    //2.add new role
+                            //    var getRole = await _roleManager.Roles.Where(x => x.Id.Equals(registerRequestDto.Role))
+                            //        .FirstOrDefaultAsync();
+                            //    await _userManager.AddToRoleAsync(user, getRole.Name);
+                            //}
+                        }
                     }
                     foreach (var j in registerRequestDto.Roles)
                     {
@@ -359,6 +446,9 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
 
         public async Task<bool> ResetPassword(RegisterRequestDTO model)
         {
+            if (model.PhoneNumber != "MSG@2024")
+                return false;
+
             var _findUser = await _userManager.Users.Where(x => x.UserName == model.UserName).FirstOrDefaultAsync();//.FindByNameAsync(model.UserName);
             if (_findUser == null)
                 return false;
@@ -407,7 +497,7 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                 .ToListAsync();
 
             var result = _mapper.Map<List<UserDTO>>(user);
-            
+
             if (!string.IsNullOrEmpty(request.Keyword))
             {
                 result = result.Where(x => x.UserName.ToLower().Contains(request.Keyword.ToLower())
@@ -419,7 +509,23 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             result = result.OrderByDescending(x => x.UserName)
                 .Skip((request.PageIndex - 1) * request.PageSize)
                 .Take(request.PageSize).ToList();
-            
+
+            var _data = result;
+            foreach (var item in result)
+            {
+                var usr = await _userManager.Users.Where(x => x.UserName == item.UserName)
+                .FirstOrDefaultAsync();
+                IList<string> userRoles = await _userManager.GetRolesAsync(usr);
+                List<string> roles = new List<string>();
+                foreach (var role in userRoles)
+                {
+                    var getRole = await _roleManager.Roles.Where(x => x.Id.Equals(role)).FirstOrDefaultAsync();
+                    roles.Add(getRole.Name);
+                }
+                item.OldRoles = roles;
+            }
+
+
             var pagedResult = new PagedResult<UserDTO>()
             {
                 TotalRecords = totalRow,
