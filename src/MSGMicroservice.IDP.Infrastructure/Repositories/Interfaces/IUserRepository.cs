@@ -20,6 +20,7 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
         Task<LoginResponseDTO> Login(LoginRequestDTO loginRequestDTO);
         Task<bool> ResetPassword(RegisterRequestDTO model);
         Task<bool> ChangePassword(ChangePwdDto model);
+        Task<bool> CreatePinCode(ChangePwdDto model);
         Task<List<UserDTO>> GetUsers();
         Task<UserDTO> GetUserById(string id);
         Task<PagedResult<UserDTO>> GetUsersPaging(GetCommonPaging request);

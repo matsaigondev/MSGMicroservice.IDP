@@ -112,7 +112,21 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
             _response.Result = "Changed password successful";
             return Ok(_response);
         }
-        
+
+        [HttpPost("createPinCode")]
+        public async Task<ActionResult> CreatePinCode([FromBody] ChangePwdDto model)
+        {
+            var result = await _userRepository.CreatePinCode(model);
+            if (!result)
+            {
+                return NotFound();
+            }
+            _response.StatusCode = HttpStatusCode.OK;
+            _response.IsSuccess = true;
+            _response.Result = "created pincode successful";
+            return Ok(_response);
+        }
+
         [HttpPut("updateUser")]
         public async Task<ActionResult> UpdateUser([FromBody] RegisterRequestDTO model)
         {

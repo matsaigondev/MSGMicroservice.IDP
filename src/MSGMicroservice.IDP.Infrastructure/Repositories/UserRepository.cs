@@ -430,7 +430,7 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
                     new Claim(ClaimTypes.Name, user.UserName.ToString()),
                     new Claim(ClaimTypes.Role, roles.FirstOrDefault())
                 }),
-                Expires = DateTime.UtcNow.AddDays(7),
+                Expires = DateTime.Now.AddDays(7),
                 SigningCredentials = new(new SymmetricSecurityKey(key), SecurityAlgorithms.HmacSha256Signature)
             };
 
@@ -467,6 +467,41 @@ namespace MSGMicroservice.IDP.Infrastructure.Repositories
             {
                 return false;
             }
+            return true;
+        }
+
+        public async Task<bool> CreatePinCode(ChangePwdDto model)
+        {
+            var user = await _userManager.FindByNameAsync(model.UserName);
+            bool isValid = await _userManager.CheckPasswordAsync(user, model.OldPassword);
+            if (!isValid)
+            {
+                return false;
+            }
+
+            var _strEncrypt = StringHeplers.Encrypt(model.OldPassword, "J@s0n1984!");
+            var _strDecrypt = StringHeplers.Decrypt(_strEncrypt,"J@s0n1984!");
+            var _mahoaPinCode = StringHeplers.MD5Hash(model.NewPassword);
+            var _sqlIns = $@"DELETE MSG_DWH.dbo.Users WHERE userid='{user.Id}'
+                            INSERT INTO MSG_DWH.dbo.Users
+                            (
+                                userid,
+                                secret,
+                                pincode
+                            )
+                            VALUES
+                            (   '{user.Id}', -- userid - uniqueidentifier
+                                '{_strEncrypt}', -- secret - varchar(250)
+                                '{_mahoaPinCode}'  -- pincode - varchar(150)
+                                )";
+            try
+            {
+                using (var connection = _dapperContext.CreateConnection())
+                {
+                    await connection.ExecuteAsync(_sqlIns);
+                }    
+            }
+            catch { }
             return true;
         }
 

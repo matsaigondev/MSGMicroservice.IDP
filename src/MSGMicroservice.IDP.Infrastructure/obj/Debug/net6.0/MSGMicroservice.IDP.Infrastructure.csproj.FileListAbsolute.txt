@@ -54,3 +54,17 @@ D:\JASON\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrast
 D:\JASON\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
 D:\JASON\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.genruntimeconfig.cache
 D:\JASON\PROGRAMMING\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\ref\MSGMicroservice.IDP.Infrastructure.dll
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.deps.json
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.runtimeconfig.json
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.dll
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\bin\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.csproj.AssemblyReference.cache
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.AssemblyInfoInputs.cache
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.AssemblyInfo.cs
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.csproj.CoreCompileInputs.cache
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.dll
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\refint\MSGMicroservice.IDP.Infrastructure.dll
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.pdb
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\MSGMicroservice.IDP.Infrastructure.genruntimeconfig.cache
+D:\BACKEND\MSGMicroservice.IDP\src\MSGMicroservice.IDP.Infrastructure\obj\Debug\net6.0\ref\MSGMicroservice.IDP.Infrastructure.dll
