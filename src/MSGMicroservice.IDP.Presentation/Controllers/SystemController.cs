@@ -87,7 +87,13 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
                 new PermissionDTO {Function = Modules.Dashboard_hub.ToString()},
                 new PermissionDTO {Function = Modules.Dashboard_115.ToString()},
                 new PermissionDTO {Function = Modules.Dashboard_cam.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_elearning.ToString()},
                 new PermissionDTO {Function = Modules.Wiki.ToString()},
+                new PermissionDTO {Function = Modules.Elearning.ToString()},
+                new PermissionDTO {Function = Modules.Elearning_event.ToString()},
+                new PermissionDTO {Function = Modules.Elearning_dethi.ToString()},
+                new PermissionDTO {Function = Modules.Elearning_cauhoi.ToString()},
+                new PermissionDTO {Function = Modules.Elearning_danhmuc.ToString()},
             });
             return Ok(_addList.ToList().OrderBy(x => x.Function));
         }

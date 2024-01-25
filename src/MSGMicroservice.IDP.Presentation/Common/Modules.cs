@@ -46,6 +46,12 @@
         Dashboard_hub,
         Dashboard_115,
         Dashboard_cam,
-        Wiki
+        Dashboard_elearning,
+        Wiki,
+        Elearning,
+        Elearning_event,
+        Elearning_dethi,
+        Elearning_cauhoi,
+        Elearning_danhmuc
     }
 }
