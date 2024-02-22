@@ -71,6 +71,7 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
                 new PermissionDTO {Function = Modules.CRM_library.ToString()},
                 new PermissionDTO {Function = Modules.CRM_lead_client.ToString()},
                 new PermissionDTO {Function = Modules.CRM_phaco.ToString()},
+                new PermissionDTO {Function = Modules.CRM_event.ToString()},
                 new PermissionDTO {Function = Modules.HIS.ToString()},
                 new PermissionDTO {Function = Modules.NPS.ToString()},
                 new PermissionDTO {Function = Modules.HRM.ToString()},
@@ -88,6 +89,12 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
                 new PermissionDTO {Function = Modules.Dashboard_115.ToString()},
                 new PermissionDTO {Function = Modules.Dashboard_cam.ToString()},
                 new PermissionDTO {Function = Modules.Wiki.ToString()},
+                new PermissionDTO {Function = Modules.ELEARNING.ToString()},
+                new PermissionDTO {Function = Modules.Dashboard_elearning.ToString()},
+                new PermissionDTO {Function = Modules.el_event.ToString()},
+                new PermissionDTO {Function = Modules.el_dethi.ToString()},
+                new PermissionDTO {Function = Modules.el_question.ToString()},
+                new PermissionDTO {Function = Modules.el_danhmuc.ToString()},
             });
             return Ok(_addList.ToList().OrderBy(x => x.Function));
         }
@@ -214,6 +221,119 @@ namespace MSGMicroservice.IDP.Presentation.Controllers
             else
             {
                 await _permissionRepository.DeletePermission(model.RoleId, model.Function, "PRINT");
+            }
+            return Ok();
+        }
+
+        [HttpPost("updatePermissions")]
+        public async Task<ActionResult> UpdatePermissions([FromBody] List<PermissionRoleVm> models)
+        {
+            foreach (var model in models)
+            {
+                if (model.View)
+                {
+                    PermissioAddModel addModel = new PermissioAddModel()
+                    {
+                        Function = model.Function,
+                        Command = "VIEW"
+                    };
+                    await _permissionRepository.CreatePermission(model.RoleId, addModel);
+                }
+                else
+                {
+                    await _permissionRepository.DeletePermission(model.RoleId, model.Function, "VIEW");
+                }
+                if (model.Create)
+                {
+                    PermissioAddModel addModel = new PermissioAddModel()
+                    {
+                        Function = model.Function,
+                        Command = "CREATE"
+                    };
+                    await _permissionRepository.CreatePermission(model.RoleId, addModel);
+                }
+                else
+                {
+                    await _permissionRepository.DeletePermission(model.RoleId, model.Function, "CREATE");
+                }
+                if (model.Update)
+                {
+                    PermissioAddModel addModel = new PermissioAddModel()
+                    {
+                        Function = model.Function,
+                        Command = "UPDATE"
+                    };
+                    await _permissionRepository.CreatePermission(model.RoleId, addModel);
+                }
+                else
+                {
+                    await _permissionRepository.DeletePermission(model.RoleId, model.Function, "UPDATE");
+                }
+                if (model.Delete)
+                {
+                    PermissioAddModel addModel = new PermissioAddModel()
+                    {
+                        Function = model.Function,
+                        Command = "DELETE"
+                    };
+                    await _permissionRepository.CreatePermission(model.RoleId, addModel);
+                }
+                else
+                {
+                    await _permissionRepository.DeletePermission(model.RoleId, model.Function, "DELETE");
+                }
+                if (model.Import)
+                {
+                    PermissioAddModel addModel = new PermissioAddModel()
+                    {
+                        Function = model.Function,
+                        Command = "IMPORT"
+                    };
+                    await _permissionRepository.CreatePermission(model.RoleId, addModel);
+                }
+                else
+                {
+                    await _permissionRepository.DeletePermission(model.RoleId, model.Function, "IMPORT");
+                }
+                if (model.Export)
+                {
+                    PermissioAddModel addModel = new PermissioAddModel()
+                    {
+                        Function = model.Function,
+                        Command = "EXPORT"
+                    };
+                    await _permissionRepository.CreatePermission(model.RoleId, addModel);
+                }
+                else
+                {
+                    await _permissionRepository.DeletePermission(model.RoleId, model.Function, "EXPORT");
+                }
+                if (model.Show)
+                {
+                    PermissioAddModel addModel = new PermissioAddModel()
+                    {
+                        Function = model.Function,
+                        Command = "SHOW"
+                    };
+                    await _permissionRepository.CreatePermission(model.RoleId, addModel);
+                }
+                else
+                {
+                    await _permissionRepository.DeletePermission(model.RoleId, model.Function, "SHOW");
+                }
+                if (model.Print)
+                {
+                    PermissioAddModel addModel = new PermissioAddModel()
+                    {
+                        Function = model.Function,
+                        Command = "PRINT"
+                    };
+                    await _permissionRepository.CreatePermission(model.RoleId, addModel);
+                }
+                else
+                {
+                    await _permissionRepository.DeletePermission(model.RoleId, model.Function, "PRINT");
+                }
             }
             return Ok();
         }

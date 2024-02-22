@@ -30,6 +30,7 @@
         CRM_library,
         CRM_lead_client,
         CRM_phaco,
+        CRM_event,
         HIS,
         NPS,
         HRM,
@@ -46,6 +47,12 @@
         Dashboard_hub,
         Dashboard_115,
         Dashboard_cam,
-        Wiki
+        Wiki,
+        ELEARNING,
+        Dashboard_elearning,
+        el_event,
+        el_dethi,
+        el_question,
+        el_danhmuc
     }
 }
