@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7E16DF-10F1-4199-863C-16556D9BC0B8}|src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj|d:\\jason\\programming\\backend\\msgmicroservice.idp\\src\\msgmicroservice.idp.presentation\\controllers\\systemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA7E16DF-10F1-4199-863C-16556D9BC0B8}|src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj|solutionrelative:src\\msgmicroservice.idp.presentation\\controllers\\systemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CA7E16DF-10F1-4199-863C-16556D9BC0B8}|src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj|d:\\jason\\programming\\backend\\msgmicroservice.idp\\src\\msgmicroservice.idp.presentation\\common\\modules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CA7E16DF-10F1-4199-863C-16556D9BC0B8}|src\\MSGMicroservice.IDP.Presentation\\MSGMicroservice.IDP.Presentation.csproj|solutionrelative:src\\msgmicroservice.idp.presentation\\common\\modules.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC66C95-2A1D-4300-990B-86510E0652A4}|src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj|d:\\jason\\programming\\backend\\msgmicroservice.idp\\src\\msgmicroservice.idp.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC66C95-2A1D-4300-990B-86510E0652A4}|src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj|solutionrelative:src\\msgmicroservice.idp.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DDC66C95-2A1D-4300-990B-86510E0652A4}|src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj|d:\\jason\\programming\\backend\\msgmicroservice.idp\\src\\msgmicroservice.idp.infrastructure\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DDC66C95-2A1D-4300-990B-86510E0652A4}|src\\MSGMicroservice.IDP.Infrastructure\\MSGMicroservice.IDP.Infrastructure.csproj|solutionrelative:src\\msgmicroservice.idp.infrastructure\\repositories\\permissionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Modules.cs",
+              "DocumentMoniker": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\Common\\Modules.cs",
+              "RelativeDocumentMoniker": "src\\MSGMicroservice.IDP.Presentation\\Common\\Modules.cs",
+              "ToolTip": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\Common\\Modules.cs",
+              "RelativeToolTip": "src\\MSGMicroservice.IDP.Presentation\\Common\\Modules.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAzwCgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T06:39:18.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SystemController.cs",
+              "DocumentMoniker": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\Controllers\\SystemController.cs",
+              "RelativeDocumentMoniker": "src\\MSGMicroservice.IDP.Presentation\\Controllers\\SystemController.cs",
+              "ToolTip": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Presentation\\Controllers\\SystemController.cs",
+              "RelativeToolTip": "src\\MSGMicroservice.IDP.Presentation\\Controllers\\SystemController.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAwwFAAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-22T05:05:00.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "src\\MSGMicroservice.IDP.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "src\\MSGMicroservice.IDP.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAAAIBAAAAAAAAAAAAAKwCAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T07:07:13.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PermissionRepository.cs",
+              "DocumentMoniker": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "RelativeDocumentMoniker": "src\\MSGMicroservice.IDP.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "ToolTip": "D:\\JASON\\PROGRAMMING\\BACKEND\\MSGMicroservice.IDP\\src\\MSGMicroservice.IDP.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "RelativeToolTip": "src\\MSGMicroservice.IDP.Infrastructure\\Repositories\\PermissionRepository.cs",
+              "ViewState": "AQIAAHkAAAAAAAAAAADwvzsAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-12-14T06:29:27.462Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
